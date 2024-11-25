@@ -1,0 +1,80 @@
+# 3GPP Specification for Indoor User Distribution and Path Loss Modeling  
+## Environment: Banquet Hall
+
+---
+
+## Overview  
+This document specifies the user distribution and path loss modeling parameters for a **Banquet Hall** environment. It provides a framework for evaluating wireless communication performance under scenarios typical of social gatherings or events.
+
+---
+
+### 1. Environment Characteristics  
+
+#### 1.1 Banquet Hall Description  
+- **Dimensions**: Banquet halls typically range from \( 200 \, \text{m}^2 \) to \( 1000 \, \text{m}^2 \), with ceiling heights of \( 4 \, \text{m} \) to \( 6 \, \text{m} \).  
+- **Layout**: Open space, often with minimal partitions, allowing for flexible seating and movement.  
+- **User Density**: \( 0.5 - 2.0 \, \text{users/m}^2 \), with higher concentrations in the center during events like receptions, dinners, or dances.
+
+#### 1.2 Selected Distribution Model: Concentrated in the Center  
+The **Concentrated in the Center** distribution mirrors typical user behavior in banquet halls:  
+- Social or event activities tend to draw people towards the central area.  
+- Peripheral areas are usually occupied by tables, food counters, or decorations.
+
+---
+
+### 2. Modeling Parameters  
+
+#### 2.1 User Distribution Details  
+**Distribution Type**: Concentrated in the Center  
+- Users are densely packed within a central zone, with diminishing density towards the edges.  
+- This simulates gatherings such as receptions or group interactions.
+
+##### Example Configuration:  
+For a banquet hall of \( 30 \, \text{m} \times 20 \, \text{m} \):  
+- **Total Area**: \( 600 \, \text{m}^2 \).  
+- **User Count**: \( 300 \, \text{users} \).  
+- **User Positioning**:  
+  - Approximately \( 75\% \) of users are within a central circle of \( 10 \, \text{m} \) radius.
+  - Remaining \( 25\% \) are scattered around the periphery.
+
+---
+
+#### 2.2 Path Loss Model  
+
+The path loss is calculated using the equation:  
+\[
+PL(d) = K + 10 \cdot \alpha \cdot \log_{10}(d) + \chi
+\]  
+Where:  
+- \( K \): Path Loss Constant, calibrated to the range \( 0.005 - 0.05 \, \text{dB} \).  
+  - For banquet halls, \( K = 0.02 \, \text{dB} \).  
+- \( \alpha \): Path Loss Exponent, calibrated to the range \( 2.0 - 4.0 \).  
+  - For banquet halls, \( \alpha = 2.8 \).  
+- \( d \): Distance between transmitter and receiver [m].  
+- \( \chi \): Shadowing effect, modeled as a Gaussian random variable (\( \mu = 0, \sigma = 4 \, \text{dB} \)).
+
+##### Environmental Factors Influencing Path Loss:  
+1. **Ceiling Height**: Higher ceilings reduce the impact of obstructions but increase free space loss.  
+2. **Crowd Density**: Dense user clusters cause additional attenuation due to body shadowing, leading to signal degradation of \( 3 - 8 \, \text{dB} \).  
+
+---
+
+### 3. Simulation Guidelines  
+
+**Example Configuration for Simulation**:  
+
+| **Parameter**             | **Value**                     |  
+|----------------------------|-------------------------------|  
+| Room Size                 | \( 30 \, \text{m} \times 20 \, \text{m} \) |  
+| Total Area                | \( 600 \, \text{m}^2 \)        |  
+| User Count                | \( 300 \, \text{users} \)       |  
+| User Distribution Type    | Concentrated in the Center    |  
+| Path Loss Parameter \(K\) | \( 0.02 \, \text{dB} \)        |  
+| Path Loss Exponent \( \alpha \) | \( 2.8 \)                |  
+| Shadowing Effect          | Gaussian (\( \sigma = 4 \, \text{dB} \)) |  
+
+---
+
+### 4. Recommendations  
+
+1. **Access Point Placement**:  

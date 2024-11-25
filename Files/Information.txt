@@ -1,0 +1,72 @@
+{
+  "environments": [
+    {
+      "name": "Hospital",
+      "K": 0.015,
+      "alpha": 3.0,
+      "user_distribution": "Along the Edge"
+    },
+    {
+      "name": "House",
+      "K": 0.02,
+      "alpha": 2.8,
+      "user_distribution": "Gaussian Distribution"
+    },
+    {
+      "name": "Office",
+      "K": 0.03,
+      "alpha": 2.5,
+      "user_distribution": "Spread Evenly"
+    },
+    {
+      "name": "Warehouse",
+      "K": 0.03,
+      "alpha": 3.2,
+      "user_distribution": "Uniform Distribution"
+    },
+    {
+      "name": "Banquet Hall",
+      "K": 0.02,
+      "alpha": 2.8,
+      "user_distribution": "Concentrated in the Center"
+    }
+  ],
+  "routers": [
+    {
+      "model": "Huawei NE40E",
+      "transmission_power_2.4GHz": 22 ,
+      "carrier_frequency_band": "2400–2483.5 MHz"
+    },
+    {
+      "model": "Juniper MX240",
+      "transmission_power_2.4GHz": 24 ,
+      "carrier_frequency_band": "2378–2457.1 MHz"
+    },
+    {
+      "model": "Nokia 7750",
+      "transmission_power_2.4GHz": 20 ,
+      "carrier_frequency_band": "2200 MHz–2500 MHz"
+    },
+    {
+      "model": "Cisco ASR-900",
+      "transmission_power_2.4GHz": 23 ,
+      "carrier_frequency_band": "2350–2450 MHz"
+    },
+    {
+      "model": "Cisco XR-1234",
+      "transmission_power_2.4GHz": 20 ,
+      "carrier_frequency_band": "2301–2483.5 MHz"
+    }
+  ],
+  "defaults": [
+    {
+      "X_User_Distribution": "Uniform",
+      "Y_User_Distribution": "Uniform",
+      "Height": 3.0,
+      "Path_Loss_Parameter_K": 0.005,
+      "Path_Loss_Exponent_alpha": 3.0,
+      "Device_Name": "Cisco ASR-900",
+      "User_Equipment_Height": 1.0
+	  }
+  ]
+}

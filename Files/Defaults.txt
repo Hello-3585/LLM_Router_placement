@@ -1,0 +1,53 @@
+# Default Parameter Values for Indoor Wireless Communication Modeling  
+
+This document outlines the default parameter values to be used for indoor wireless communication simulations. These parameters are optimized for typical indoor environments and device configurations.  
+
+---
+
+### Default Parameter Values  
+
+| **Parameter**               | **Default Value**             |  
+|-----------------------------|-------------------------------|  
+| **X User Distribution**     | Uniform                      |  
+| **Y User Distribution**     | Uniform                      |  
+| **Height**                  | \( 3.0 \, \text{m} \)        |  
+| **Path Loss Parameter \( K \)** | \( 0.005 \, \text{dB} \)  |  
+| **Path Loss Exponent \( \alpha \)** | \( 3.0 \)             |  
+| **Device Name**             | Cisco ASR-900                |  
+| **User Equipment Height**   | \( 1.0 \, \text{m} \)        |  
+
+---
+
+### Parameter Details  
+
+1. **User Distribution**:  
+   - **Along the Edge**: Refers to **exponential distribution along the X-axis** and **uniform distribution along the Y-axis**. This is typical for hospital or similar layouts.  
+   - **Center**: Refers to **Gaussian distribution along both the X and Y axes**, commonly seen in banquet halls or event spaces.  
+   - **Spread Evenly**: Refers to **uniform distribution along both the X and Y axes**, typical for office environments.  
+   - **Along One Corner**: Refers to **exponential distribution along both the X and Y axes**, representing scenarios with user density concentrated in one corner.  
+   - **Along Opposite Corners**: Refers to **bi-exponential distribution along both the X and Y axes**, with user density peaks at two opposite corners of the environment.  
+   - **Along Adjacent Corners**: Refers to **exponential distribution along the X-axis** and **bi-exponential distribution along the Y-axis**, representing a concentration of users in two adjacent corners.  
+
+2. **Height**:  
+   - Default height of the indoor space is \( 3.0 \, \text{m} \), typical of residential or small office environments.  
+
+3. **Path Loss Parameters**:  
+   - \( K \) (Path Loss Constant): \( 0.005 \, \text{dB} \), minimal constant attenuation for short distances.  
+   - \( \alpha \) (Path Loss Exponent): \( 3.0 \), suitable for moderately obstructed indoor environments.  
+
+4. **Device Name**:  
+   - The default Access Point (AP) or router is the **Cisco ASR-900**, a reliable and commonly used device for indoor setups.  
+
+5. **User Equipment Height**:  
+   - Height of user devices (e.g., phones, laptops) is assumed to be \( 1.0 \, \text{m} \), representing hand-held or table-level usage.  
+
+---
+
+### Notes for Use  
+
+- The above values serve as **baseline defaults** and may be adjusted based on specific environmental characteristics or device configurations.  
+- For environments other than **House**, additional tuning of parameters like \( K \), \( \alpha \), and distribution types may be necessary.
+
+---
+
+**End of Document**  

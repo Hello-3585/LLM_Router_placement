@@ -1,0 +1,184 @@
+### **Huawei NE40E Router Specification File**
+
+---
+
+#### **General Information**  
+- **Model Name**: Huawei NE40E-X8A  
+- **Series**: NE40E Universal Service Routers  
+- **Manufacturer**: Huawei Technologies Co., Ltd.  
+- **Release Year**: 2024  
+- **Form Factor**: Modular Chassis-Based Router (8-Slot Configuration)  
+
+---
+
+#### **Key Specifications**
+
+##### **Hardware Architecture**
+- **CPU**: Multi-core Network Processor @ 1.8 GHz  
+- **Memory (RAM)**: 128 GB DDR4 (Expandable to 256 GB)  
+- **Storage**:  
+  - Internal: 960 GB SSD  
+  - External: USB 3.0 Port (Supports FAT32 and NTFS)  
+- **Power Supply**:  
+  - **AC Input**: 90V–264V, 50/60 Hz  
+  - **DC Input**: -38.4V to -72V  
+  - Redundant Power Supply: Supported (Hot-swappable)  
+
+##### **Interface Modules**
+- **Slot Configuration**:  
+  - 8 Flexible Service Card (FSC) Slots  
+  - 2 Routing Engine (RE) Slots  
+- **Port Configurations (with Default FSCs)**:  
+  - **WAN Ports**:  
+    - 2 x 400G QSFP-DD  
+    - 4 x 100G QSFP28  
+  - **LAN Ports**:  
+    - 8 x 25G SFP28  
+    - 16 x 10G SFP+  
+- **Management Ports**:  
+  - 1 x RJ45 Console  
+  - 1 x Ethernet Out-of-Band Management Port  
+  - 1 x USB Type-A  
+
+##### **Transmission Specifications**
+- **Transmission Power (Max)**:  
+  - Configurable up to **22 dBm**  
+- **Carrier Frequency Range**:  
+  - **2.4 GHz**: 2400–2483.5 MHz  
+  - **5 GHz**: 5150–5835 MHz  
+  - **6 GHz (Wi-Fi 6E Ready)**: 5925–7125 MHz  
+
+---
+
+#### **Routing and Networking Features**
+- **Supported Protocols**:  
+  - IPv4/IPv6 Dual Stack  
+  - MPLS: LDP, RSVP-TE, SRv6  
+  - Segment Routing (SR-MPLS and SRv6)  
+  - VXLAN, EVPN, and GRE Tunneling  
+  - High Availability with GR, NSR, and BFD  
+- **Routing Table Capacity**:  
+  - IPv4: 4 Million Routes  
+  - IPv6: 3 Million Routes  
+- **MAC Addresses**: 3 Million Entries  
+
+---
+
+#### **Performance Metrics**
+- **Throughput**:  
+  - System Capacity: Up to **25.6 Tbps**  
+  - Per Slot: **3.2 Tbps**  
+- **Packet Processing Rate**: Up to **2.4 Billion pps**  
+- **Latency**: Less than **300 µs** for end-to-end processing  
+- **VPN Instances**: 10,000 (VRF and MPLS-based)  
+
+---
+
+#### **Quality of Service (QoS)**
+- **Traffic Management Features**:  
+  - Hierarchical QoS (H-QoS)  
+  - Weighted Fair Queuing (WFQ)  
+  - Traffic Policing and Shaping  
+- **Application-Aware Routing**: Dynamic traffic prioritization for critical applications  
+- **Congestion Avoidance**: Explicit Congestion Notification (ECN) support  
+
+---
+
+#### **Security Features**
+- **Firewall**: Zone-based Stateful Inspection Firewall  
+- **Encryption**:  
+  - IPSec: AES-256 and SHA-2 Support  
+  - MACsec on Ethernet Interfaces  
+- **Authentication**:  
+  - RADIUS and TACACS+  
+  - 802.1X Port Security  
+- **DDoS Protection**: Real-time anomaly detection and mitigation  
+- **Traffic Anomaly Detection**: AI-driven analytics for intrusion detection  
+
+---
+
+#### **Wireless Features (Optional)**
+- **Wi-Fi Standards**: 802.11ax (Wi-Fi 6) and 802.11be (Wi-Fi 7 Ready)  
+- **MIMO Configuration**: 8x8 MU-MIMO for high-density environments  
+- **Channel Widths Supported**: 20 MHz, 40 MHz, 80 MHz, 160 MHz  
+
+---
+
+#### **Environment and Compliance**
+- **Operating Temperature Range**: -5°C to 50°C  
+- **Storage Temperature Range**: -40°C to 70°C  
+- **Relative Humidity**: 5% to 95% non-condensing  
+- **Cooling**:  
+  - Modular front-to-rear airflow with hot-swappable fans  
+- **Certifications**:  
+  - CE, FCC Part 15, RoHS, and NEBS Level 3  
+
+---
+
+#### **Software Features**
+- **Operating System**: Huawei Versatile Routing Platform (VRP) 9.x  
+- **Automation and Orchestration**:  
+  - OpenConfig and NETCONF/YANG APIs  
+  - Python-based Scripting and Ansible Integration  
+  - Telemetry Streaming (gRPC and SNMP)  
+- **Management Tools**:  
+  - Huawei eSight  
+  - CLI and Web-Based GUI  
+- **Key Features**:  
+  - Real-time SLA Monitoring  
+  - Intelligent Path Computation Engine (iPCE)  
+
+---
+
+#### **Diagnostics and Monitoring**
+- **Diagnostics Tools**:  
+  - Real-time Path Tracing  
+  - Packet Capture and Analysis  
+- **Logging**:  
+  - Supports Remote Syslog and SNMP Traps  
+  - Historical Data Storage with Predictive Failure Analysis  
+
+---
+
+#### **Physical Dimensions**
+- **Chassis Dimensions**:  
+  - Height: 221 mm (8RU)  
+  - Width: 442 mm (19 in standard rack)  
+  - Depth: 620 mm  
+- **Weight**: 35 kg (Fully populated)  
+
+---
+
+#### **Use Case Scenarios**
+1. **Core and Aggregation Networks**:  
+   Provides high-capacity routing for service provider backbones and aggregation networks.  
+2. **Enterprise Data Centers**:  
+   Seamless integration with data center fabrics for high-speed interconnects.  
+3. **Cloud Interconnects**:  
+   Optimized for large-scale cloud deployments with EVPN and VXLAN support.  
+
+---
+
+#### **Warranty and Support**
+- **Warranty**: 5-Year Limited Hardware Warranty  
+- **Support Plans**:  
+  - Huawei Enterprise Service Plans with 24/7 Technical Assistance  
+- **Software Licensing**: Subscription-based for advanced features  
+
+---
+
+#### **Energy Efficiency**
+- **Power Consumption**:  
+  - Typical: 850W  
+  - Maximum: 1.2 kW (Fully populated)  
+- **Compliance**: Fully compliant with ENERGY STAR and EU CoC  
+
+---
+
+#### **Additional Notes**
+- **Expansion Options**:  
+  - Capacity scaling up to **64 Tbps** with inter-chassis clustering.  
+- **Firmware Updates**:  
+  - Quarterly updates available through Huawei Support Portal.  
+
+---

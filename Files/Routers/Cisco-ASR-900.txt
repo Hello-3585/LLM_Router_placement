@@ -1,0 +1,174 @@
+---
+
+### **Cisco-ASR-900 Series Router Specification File**
+
+---
+
+#### **General Information**
+- **Model Name:** Cisco-ASR-900  
+- **Product Line:** ASR 900 Series Aggregation Services Routers  
+- **Manufacturer:** Cisco Systems, Inc.  
+- **Release Date:** March 2024  
+- **Form Factor:** 1RU Rack-Mountable  
+
+---
+
+#### **Technical Specifications**
+
+##### **Hardware**
+- **Processor:** Dual-core ARM Cortex-A72 @ 1.8 GHz  
+- **Memory:**  
+  - RAM: 16 GB DDR4  
+  - Storage: 256 GB SSD (Expandable to 1 TB)  
+- **Power Supply Options:**  
+  - AC Power Supply: 100–240 V, 50–60 Hz  
+  - DC Power Supply: -48 V  
+
+##### **Interfaces**
+- **WAN Ports:**  
+  - 2 x 10G SFP+  
+  - 1 x 40G QSFP  
+- **LAN Ports:**  
+  - 8 x 1G/10G SFP+  
+  - 2 x RJ45 (1G Base-T)  
+- **Management Ports:**  
+  - 1 x RJ45 Console Port  
+  - 1 x USB 3.0  
+
+##### **Transmission Specifications**
+- **Maximum Transmission Power (EIRP):**  
+  - 23 dBm @ 2.4 GHz  
+  - 26 dBm @ 5 GHz  
+- **Carrier Frequencies:**  
+  - 2.4 GHz Band: 2350–2450 MHz  
+  - 5 GHz Band: 5150–5850 MHz  
+
+##### **Wireless Standards Supported**  
+- **Wi-Fi Protocols:**  
+  - IEEE 802.11a/b/g/n/ac/ax  
+- **Modulation Techniques:**  
+  - OFDMA, QPSK, 16-QAM, 64-QAM, 256-QAM  
+- **Channel Bandwidths Supported:**  
+  - 20 MHz, 40 MHz, 80 MHz, 160 MHz  
+
+---
+
+#### **Routing Capabilities**
+- **Routing Protocols:**  
+  - OSPF, BGP, EIGRP, RIP, IS-IS  
+  - MPLS Support: LDP, RSVP-TE  
+- **IPv4/IPv6 Dual Stack:** Supported  
+- **Maximum Routes:**  
+  - IPv4: 1 Million  
+  - IPv6: 750,000  
+
+---
+
+#### **Security Features**
+- **Firewall:** Built-in Stateful Inspection Firewall  
+- **Encryption:**  
+  - IPSec VPN with AES-256/SHA-256  
+  - TLS 1.3 Support  
+- **Authentication Protocols:**  
+  - 802.1X  
+  - TACACS+ and RADIUS Integration  
+- **Intrusion Detection/Prevention System (IDS/IPS):** Supported  
+
+---
+
+#### **Performance**
+- **Throughput:**  
+  - WAN-to-LAN: 40 Gbps  
+  - Encrypted: 10 Gbps  
+- **Concurrent Connections:** Up to 1 Million  
+- **Latency:** < 1 ms for packet forwarding  
+- **Jitter:** < 0.5 ms  
+
+---
+
+#### **Environmental Specifications**
+- **Operating Temperature:** -20°C to 65°C  
+- **Humidity:** 5%–95% non-condensing  
+- **Cooling:** Dual-redundant hot-swappable fans  
+
+---
+
+#### **Software Specifications**
+- **Operating System:** Cisco IOS XR  
+- **Management Features:**  
+  - Web-based GUI  
+  - Command Line Interface (CLI)  
+  - SNMP v3 Support  
+  - REST API for Automation  
+
+---
+
+#### **Wireless Network Optimization**
+- **Dynamic Channel Allocation:** Automatic based on interference levels  
+- **Beamforming Technology:** Supported  
+- **Transmit Power Control:** Adaptive, based on device proximity and interference  
+
+---
+
+#### **QoS (Quality of Service)**
+- **Traffic Shaping and Prioritization:**  
+  - Weighted Fair Queuing (WFQ)  
+  - Low-Latency Queuing (LLQ)  
+- **VoIP Optimization:** Built-in Call Admission Control (CAC)  
+
+---
+
+#### **Diagnostics and Monitoring**
+- **Real-time Monitoring Tools:**  
+  - CPU and Memory Utilization  
+  - Interface Status and Traffic Analysis  
+- **Logs:**  
+  - Event Logging  
+  - Syslog Support  
+
+---
+
+#### **Licensing and Warranty**
+- **License Model:**  
+  - Base Features: Included  
+  - Advanced Routing/Firewall Features: Subscription-based  
+- **Warranty:**  
+  - 1-year hardware replacement  
+  - 24/7 support with optional service plans  
+
+---
+
+#### **Physical Dimensions and Weight**
+- **Dimensions:**  
+  - Height: 44.45 mm (1.75 in)  
+  - Width: 482.6 mm (19 in)  
+  - Depth: 457.2 mm (18 in)  
+- **Weight:** 6.8 kg (15 lbs)  
+
+---
+
+#### **Additional Features**
+- **Redundancy:**  
+  - Dual Power Supply Option  
+  - Hardware and Software Failover  
+- **Energy Efficiency:** ENERGY STAR certified  
+- **Compliance Standards:**  
+  - FCC Part 15  
+  - CE, RoHS, WEEE  
+
+---
+
+#### **Supported Use Cases**
+1. **Enterprise Edge Routing:** Advanced MPLS and IP routing for seamless WAN/LAN integration.  
+2. **Data Center Interconnect:** High-speed 40G/10G uplinks for scalable data center connectivity.  
+3. **Small to Medium ISP Deployment:** Carrier-grade features with robust scalability options.  
+
+---
+
+#### **Release Notes**
+- **Version:** 1.0  
+- **Known Issues:**  
+  - Channel interference at high-density environments in the 5 GHz band.  
+  - Limited support for legacy devices operating under 802.11b/g.  
+
+---

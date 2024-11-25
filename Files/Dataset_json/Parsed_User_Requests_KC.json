@@ -1,0 +1,2048 @@
+{
+    "0": [
+        {
+            "Original_Request": "For a banquet hall with dimensions 40m x 30m x 4m, determine the optimal placement of 5 Huawei NE40 routers to achieve maximum minimum RSRP for 120 users, given 25 dBm transmit power, path loss parameters K = 0.01 and alpha = 2.5, and a Gaussian user distribution.",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 30,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Gaussian",
+                "Height": 4,
+                "K": 0.01,
+                "Alpha": 2.5,
+                "Location": "Banquet Hall",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": 25
+            }
+        },
+        {
+            "Original_Request": "I need to maximize the minimum received signal reference power in a 30m x 20m x 3m office space with 4 Juniper MX240 routers, 100 users, 15 dBm transmit power, path loss parameters K = 0.005 and alpha = 2, and an exponential user distribution along both axes.",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 20,
+                "Number_of_Users": 100,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Exponential",
+                "Height": 3,
+                "K": 0.005,
+                "Alpha": 2.0,
+                "Location": "Office",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": 15
+            }
+        },
+        {
+            "Original_Request": "Optimize the placement of 6 Nokia 7750 routers in a 50m x 40m x 6m hospital to make sure even the weakest signal is usable. for 180 users, with 28 dBm transmit power, path loss parameters K = 0.03 and alpha = 3.5, and a uniform user distribution.",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 40,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": 6,
+                "K": 0.03,
+                "Alpha": 3.5,
+                "Location": "Hospital",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": 28
+            }
+        },
+        {
+            "Original_Request": "Given a house with dimensions 20m x 15m x 4m, find the optimal placement of 3 Cisco XR-1234 routers Focusing on ensuring a good connection for all 50 users, given 12 dBm transmit power, path loss parameters K = 0.02 and alpha = 2.2, and a bi-exponential user distribution.",
+            "Parsed_Parameters": {
+                "X_dimension": 20,
+                "Y_dimension": 15,
+                "Number_of_Users": 50,
+                "Number_of_Routers": 3,
+                "X_User_Distribution": "Bi-Exponential",
+                "Y_User_Distribution": "Bi-Exponential",
+                "Height": 4,
+                "K": 0.02,
+                "Alpha": 2.2,
+                "Location": "House",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": 12
+            }
+        },
+        {
+            "Original_Request": "To maximize minimum RSRP in a 45m x 35m x 5m warehouse, I need to place 7 Cisco ASR-900 routers optimally for 160 users, with 22 dBm transmit power, path loss parameters K = 0.01 and alpha = 2.8, and a Gaussian user distribution along both axes.",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 35,
+                "Number_of_Users": 160,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Gaussian",
+                "Height": 5,
+                "K": 0.01,
+                "Alpha": 2.8,
+                "Location": "Warehouse",
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": 22
+            }
+        },
+        {
+            "Original_Request": "Determine the optimal placement of 9 Juniper MX240 routers in a 60m x 50m x 6m office space avoiding weak spots by boosting the weakest signal for 200 users, given 30 dBm transmit power, path loss parameters K = 0.04 and alpha = 3.2, and a uniform user distribution.",
+            "Parsed_Parameters": {
+                "X_dimension": 60,
+                "Y_dimension": 50,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": 6,
+                "K": 0.04,
+                "Alpha": 3.2,
+                "Location": "Office",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": 30
+            }
+        },
+        {
+            "Original_Request": "Considering a 50m x 45m banquet hall with 6m height, what's the optimal placement for 10 Cisco ASR-900 routers maximizing the minimum signal to cover all devices well for 200 users, with 30 dBm transmit power, path loss parameters K = 0.03 and alpha = 3, and a bi-exponential user distribution along the X and Y axes?",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 45,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 10,
+                "X_User_Distribution": "Bi-Exponential",
+                "Y_User_Distribution": "Bi-Exponential",
+                "Height": 6,
+                "K": 0.03,
+                "Alpha": 3.0,
+                "Location": "Banquet Hall",
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": 30
+            }
+        },
+        {
+            "Original_Request": "Maximize the minimum RSRP to ensure consistent coverage in a 25m x 20m x 4m banquet hall with 4 Huawei NE40 routers, 80 users, 18 dBm transmit power, path loss parameters K = 0.005 and alpha = 2.5, and an exponential user distribution.",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 20,
+                "Number_of_Users": 80,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Exponential",
+                "Height": 4,
+                "K": 0.005,
+                "Alpha": 2.5,
+                "Location": "Banquet Hall",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": 18
+            }
+        },
+        {
+            "Original_Request": "For a 40m x 30m x 5m hospital, optimize network of 6 Nokia 7750 routers to maximize the minimum signal strength for 140 users, with 25 dBm transmit power, path loss parameters K = 0.02 and alpha = 3, and a bi-exponential user distribution along both axes.",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 30,
+                "Number_of_Users": 140,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Bi-Exponential",
+                "Y_User_Distribution": "Bi-Exponential",
+                "Height": 5,
+                "K": 0.02,
+                "Alpha": 3.0,
+                "Location": "Hospital",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": 25
+            }
+        },
+        {
+            "Original_Request": "Optimize the placement of 5 Cisco XR-1234 routers in a 35m x 25m x 4m house to achieve maximum minimum RSRP for 100 users, given 20 dBm transmit power, path loss parameters K = 0.01 and alpha = 2.2, and a Gaussian user distribution.",
+            "Parsed_Parameters": {
+                "X_dimension": 35,
+                "Y_dimension": 25,
+                "Number_of_Users": 100,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Gaussian",
+                "Height": 4,
+                "K": 0.01,
+                "Alpha": 2.2,
+                "Location": "House",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": 20
+            }
+        },
+        {
+            "Original_Request": "To maximize minimum RSRP in a 55m x 45m x 6m warehouse, determine the optimal placement of 8 Cisco ASR-900 routers for 190 users, with 28 dBm transmit power, path loss parameters K = 0.03 and alpha = 3.5, and a uniform user distribution along both axes.",
+            "Parsed_Parameters": {
+                "X_dimension": 55,
+                "Y_dimension": 45,
+                "Number_of_Users": 190,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": 6,
+                "K": 0.03,
+                "Alpha": 3.5,
+                "Location": "Warehouse",
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": 28
+            }
+        },
+        {
+            "Original_Request": "Can you suggest the best spots for 7 Cisco XR-1234 routers in a warehouse (50m x 30m x 5m) to boost the lowest RSRP for 150 users, with 20 dBm transmit power, path loss parameters K = 0.02 and alpha = 3, and a uniform user distribution?",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 30,
+                "Number_of_Users": 150,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": 5,
+                "K": 0.02,
+                "Alpha": 3.0,
+                "Location": "Warehouse",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": 20
+            }
+        },
+        {
+            "Original_Request": "What's the ideal arrangement of 4 Juniper MX240 routers in a hospital (30m x 20m x 3m) to ensure the worst signal is still strong enough to work well for 80 users, given 15 dBm transmit power, path loss parameters K = 0.03 and alpha = 3.5, with an exponential user distribution?",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 20,
+                "Number_of_Users": 80,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Exponential",
+                "Height": 3,
+                "K": 0.03,
+                "Alpha": 3.5,
+                "Location": "Hospital",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": 15
+            }
+        },
+        {
+            "Original_Request": "How should we place 6 Nokia 7750 routers in an office (40m x 25m x 4m) to prevent any device from having a poor signal. for 180 users, with 28 dBm transmit power, path loss parameters K = 0.008 and alpha = 2.2, and a bi-exponential user distribution?",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 25,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Bi-Exponential",
+                "Y_User_Distribution": "Bi-Exponential",
+                "Height": 4,
+                "K": 0.008,
+                "Alpha": 2.2,
+                "Location": "Office",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": 28
+            }
+        },
+        {
+            "Original_Request": "Where should we install 3 Cisco ASR-900 routers in a house (20m x 15m x 3m) to optimize the minimum RSRP for 50 users, given 18 dBm transmit power, path loss parameters K = 0.04 and alpha = 3.8, with a Gaussian user distribution?",
+            "Parsed_Parameters": {
+                "X_dimension": 20,
+                "Y_dimension": 15,
+                "Number_of_Users": 50,
+                "Number_of_Routers": 3,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Gaussian",
+                "Height": 3,
+                "K": 0.04,
+                "Alpha": 3.8,
+                "Location": "House",
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": 18
+            }
+        },
+        {
+            "Original_Request": "What's the optimal layout for 8 Huawei NE40 routers in a banquet hall (55m x 35m x 6m) to maximize the minimum received signal reference power at any device for 200 users, with 30 dBm transmit power, path loss parameters K = 0.015 and alpha = 2.8, and a uniform user distribution?",
+            "Parsed_Parameters": {
+                "X_dimension": 55,
+                "Y_dimension": 35,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": 6,
+                "K": 0.015,
+                "Alpha": 2.8,
+                "Location": "Banquet Hall",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": 30
+            }
+        },
+        {
+            "Original_Request": "Can you recommend the best positions for 9 Juniper MX240 routers in a warehouse (60m x 40m x 5m) to improve the lowest RSRP for 170 users, with 22 dBm transmit power, path loss parameters K = 0.025 and alpha = 3.2, with an exponential user distribution?",
+            "Parsed_Parameters": {
+                "X_dimension": 60,
+                "Y_dimension": 40,
+                "Number_of_Users": 170,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Exponential",
+                "Height": 5,
+                "K": 0.025,
+                "Alpha": 3.2,
+                "Location": "Warehouse",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": 22
+            }
+        },
+        {
+            "Original_Request": "How should we arrange 10 Cisco XR-1234 routers in a hospital (35m x 25m x 4m) to maximize the minimum RSRP for 130 users, given 26 dBm transmit power, path loss parameters K = 0.007 and alpha = 2.4, and a bi-exponential user distribution?",
+            "Parsed_Parameters": {
+                "X_dimension": 35,
+                "Y_dimension": 25,
+                "Number_of_Users": 130,
+                "Number_of_Routers": 10,
+                "X_User_Distribution": "Bi-Exponential",
+                "Y_User_Distribution": "Bi-Exponential",
+                "Height": 4,
+                "K": 0.007,
+                "Alpha": 2.4,
+                "Location": "Hospital",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": 26
+            }
+        },
+        {
+            "Original_Request": "Where should we place 2 Nokia 7750 routers in an office (25m x 20m x 3m) to maximizing the weakest signal strength in the network for 70 users, with 12 dBm transmit power, path loss parameters K = 0.035 and alpha = 3.6, with a Gaussian user distribution?",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 20,
+                "Number_of_Users": 70,
+                "Number_of_Routers": 2,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Gaussian",
+                "Height": 3,
+                "K": 0.035,
+                "Alpha": 3.6,
+                "Location": "Office",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": 12
+            }
+        },
+        {
+            "Original_Request": "What's the ideal setup for 5 Cisco ASR-900 routers in a house (30m x 20m x 4m) to improve the minimum RSRP for better network performance. RSRP for 100 users, with 24 dBm transmit power, path loss parameters K = 0.012 and alpha = 2.7, and a uniform user distribution?",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 20,
+                "Number_of_Users": 100,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": 4,
+                "K": 0.012,
+                "Alpha": 2.7,
+                "Location": "House",
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": 24
+            }
+        },
+        {
+            "Original_Request": "Could you advise on where to position 6 Huawei NE40 routers in an office (50m x 40m x 4m) to boost the weakest RSRP for 160 users, with 27 dBm transmit power, path loss parameters K = 0.01 and alpha = 2.6, and a bi-exponential user distribution along both axes?",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 40,
+                "Number_of_Users": 160,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Bi-Exponential",
+                "Y_User_Distribution": "Bi-Exponential",
+                "Height": 4,
+                "K": 0.01,
+                "Alpha": 2.6,
+                "Location": "Office",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": 27
+            }
+        },
+        {
+            "Original_Request": "What's the best way to arrange 4 Juniper MX240 routers in a warehouse (45m x 30m x 5m) to raise the lowest signal strength to avoid weak connections for 120 users, given 23 dBm transmit power, path loss parameters K = 0.02 and alpha = 3.1, with users distributed uniformly?",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 30,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": 5,
+                "K": 0.02,
+                "Alpha": 3.1,
+                "Location": "Warehouse",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": 23
+            }
+        },
+        {
+            "Original_Request": "Can you suggest optimal locations for 8 Cisco XR-1234 routers in a hospital (35m x 20m x 3m) to enhance the lowest RSRP for 140 users, with 25 dBm transmit power, path loss parameters K = 0.008 and alpha = 2.3, and a Gaussian user distribution?",
+            "Parsed_Parameters": {
+                "X_dimension": 35,
+                "Y_dimension": 20,
+                "Number_of_Users": 140,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Gaussian",
+                "Height": 3,
+                "K": 0.008,
+                "Alpha": 2.3,
+                "Location": "Hospital",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": 25
+            }
+        },
+        {
+            "Original_Request": "How should we place 3 Nokia 7750 routers in a house (25m x 18m x 3m) to make sure even the weakest signal is usable for 60 users, with 17 dBm transmit power, path loss parameters K = 0.03 and alpha = 3.7, considering an exponential user distribution?",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 18,
+                "Number_of_Users": 60,
+                "Number_of_Routers": 3,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Exponential",
+                "Height": 3,
+                "K": 0.03,
+                "Alpha": 3.7,
+                "Location": "House",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": 17
+            }
+        },
+        {
+            "Original_Request": "Where should we install 7 Cisco ASR-900 routers in a banquet hall (50m x 35m x 6m) to maximize the minimum RSRP for 180 users, given 29 dBm transmit power, path loss parameters K = 0.015 and alpha = 2.8, with a uniform user distribution?",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 35,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": 6,
+                "K": 0.015,
+                "Alpha": 2.8,
+                "Location": "Banquet Hall",
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": 29
+            }
+        },
+        {
+            "Original_Request": "Could you recommend the best spots for 5 Huawei NE40 routers in an office (40m x 25m x 4m) to improve the lowest RSRP for 130 users, with 24 dBm transmit power, path loss parameters K = 0.007 and alpha = 2.4, and a bi-exponential user distribution?",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 25,
+                "Number_of_Users": 130,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": "Bi-Exponential",
+                "Y_User_Distribution": "Bi-Exponential",
+                "Height": 4,
+                "K": 0.007,
+                "Alpha": 2.4,
+                "Location": "Office",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": 24
+            }
+        },
+        {
+            "Original_Request": "What's the ideal setup for 9 Juniper MX240 routers in a warehouse (60m x 40m x 5m) to boost the weakest RSRP for 170 users, with 22 dBm transmit power, path loss parameters K = 0.025 and alpha = 3.2, with users distributed exponentially?",
+            "Parsed_Parameters": {
+                "X_dimension": 60,
+                "Y_dimension": 40,
+                "Number_of_Users": 170,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Exponential",
+                "Height": 5,
+                "K": 0.025,
+                "Alpha": 3.2,
+                "Location": "Warehouse",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": 22
+            }
+        },
+        {
+            "Original_Request": "How should we arrange 2 Cisco XR-1234 routers in a hospital (20m x 15m x 3m) to improve the lowest RSRP to strengthen overall connectivity for 40 users, given 15 dBm transmit power, path loss parameters K = 0.04 and alpha = 3.8, with a Gaussian user distribution?",
+            "Parsed_Parameters": {
+                "X_dimension": 20,
+                "Y_dimension": 15,
+                "Number_of_Users": 40,
+                "Number_of_Routers": 2,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Gaussian",
+                "Height": 3,
+                "K": 0.04,
+                "Alpha": 3.8,
+                "Location": "Hospital",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": 15
+            }
+        },
+        {
+            "Original_Request": "Where should we place 10 Nokia 7750 routers in a banquet hall (55m x 35m x 6m) to maximize the lowest RSRP to keep signal quality high. for 200 users, with 30 dBm transmit power, path loss parameters K = 0.015 and alpha = 2.8, considering a uniform user distribution?",
+            "Parsed_Parameters": {
+                "X_dimension": 55,
+                "Y_dimension": 35,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 10,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": 6,
+                "K": 0.015,
+                "Alpha": 2.8,
+                "Location": "Banquet Hall",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": 30
+            }
+        },
+        {
+            "Original_Request": "Could you advise on the optimal placement of 4 Cisco ASR-900 routers in a house (30m x 20m x 4m) to make sure every device has a decent connection. for 100 users, with 24 dBm transmit power, path loss parameters K = 0.012 and alpha = 2.7, with users distributed uniformly?",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 20,
+                "Number_of_Users": 100,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": 4,
+                "K": 0.012,
+                "Alpha": 2.7,
+                "Location": "House",
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": 24
+            }
+        },
+        {
+            "Original_Request": "I need help figuring out where to put 5 Huawei NE40 routers in a warehouse (40m x 25m x 5m) to get the best minimum RSRP for 150 users. The transmit power is 20 dBm, path loss parameters are K = 0.01 and alpha = 2.8, and the user distribution is exponential along both axes.",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 25,
+                "Number_of_Users": 150,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Exponential",
+                "Height": 5,
+                "K": 0.01,
+                "Alpha": 2.8,
+                "Location": "Warehouse",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": 20
+            }
+        },
+        {
+            "Original_Request": "Could you suggest where to install 7 Cisco XR-1234 routers in an office (50m x 35m x 4m) to maximize the weakest RSRP for 180 users? The transmit power is 25 dBm, path loss parameters are K = 0.008 and alpha = 2.4, with a bi-exponential user distribution.",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 35,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": "Bi-Exponential",
+                "Y_User_Distribution": "Bi-Exponential",
+                "Height": 4,
+                "K": 0.008,
+                "Alpha": 2.4,
+                "Location": "Office",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": 25
+            }
+        },
+        {
+            "Original_Request": "What's the optimal arrangement for 3 Juniper MX240 routers in a house (20m x 15m x 3m) to boost the signal quality for users on the network edge for 50 users? The transmit power is 18 dBm, path loss parameters are K = 0.03 and alpha = 3.6, with a Gaussian user distribution.",
+            "Parsed_Parameters": {
+                "X_dimension": 20,
+                "Y_dimension": 15,
+                "Number_of_Users": 50,
+                "Number_of_Routers": 3,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Gaussian",
+                "Height": 3,
+                "K": 0.03,
+                "Alpha": 3.6,
+                "Location": "House",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": 18
+            }
+        },
+        {
+            "Original_Request": "Where should we place 6 Nokia 7750 routers in a banquet hall (50m x 30m x 6m) to keep all connections reliable by boosting the minimum strength for 160 users? The transmit power is 28 dBm, path loss parameters are K = 0.01 and alpha = 2.6, with users distributed uniformly.",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 30,
+                "Number_of_Users": 160,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": 6,
+                "K": 0.01,
+                "Alpha": 2.6,
+                "Location": "Banquet Hall",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": 28
+            }
+        },
+        {
+            "Original_Request": "Can you recommend the best spots for 4 Cisco ASR-900 routers in a hospital (30m x 20m x 4m) to focus on ensuring no one gets a weak signal. for 80 users? The transmit power is 15 dBm, path loss parameters are K = 0.02 and alpha = 3.5, with an exponential user distribution.",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 20,
+                "Number_of_Users": 80,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Exponential",
+                "Height": 4,
+                "K": 0.02,
+                "Alpha": 3.5,
+                "Location": "Hospital",
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": 15
+            }
+        },
+        {
+            "Original_Request": "How should we arrange 8 Huawei NE40 routers in a warehouse (55m x 35m x 5m) to maximize the minimum RSRP for 200 users? The transmit power is 30 dBm, path loss parameters are K = 0.015 and alpha = 2.8, with a uniform user distribution.",
+            "Parsed_Parameters": {
+                "X_dimension": 55,
+                "Y_dimension": 35,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": 5,
+                "K": 0.015,
+                "Alpha": 2.8,
+                "Location": "Warehouse",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": 30
+            }
+        },
+        {
+            "Original_Request": "What's the ideal setup for 2 Juniper MX240 routers in an office (25m x 20m x 3m) trying to boost the weakest connections for 70 users? The transmit power is 12 dBm, path loss parameters are K = 0.035 and alpha = 3.6, with a Gaussian user distribution.",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 20,
+                "Number_of_Users": 70,
+                "Number_of_Routers": 2,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Gaussian",
+                "Height": 3,
+                "K": 0.035,
+                "Alpha": 3.6,
+                "Location": "Office",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": 12
+            }
+        },
+        {
+            "Original_Request": "Where do we install 9 Cisco XR-1234 routers in a hospital (35m x 25m x 4m) to get the best minimum RSRP for 130 users? The transmit power is 26 dBm, path loss parameters are K = 0.007 and alpha = 2.4, with a bi-exponential user distribution.",
+            "Parsed_Parameters": {
+                "X_dimension": 35,
+                "Y_dimension": 25,
+                "Number_of_Users": 130,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": "Bi-Exponential",
+                "Y_User_Distribution": "Bi-Exponential",
+                "Height": 4,
+                "K": 0.007,
+                "Alpha": 2.4,
+                "Location": "Hospital",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": 26
+            }
+        },
+        {
+            "Original_Request": "Could you advise on the optimal placement of 10 Nokia 7750 routers in a banquet hall (55m x 35m x 6m) to ensure the lowest signal strength is as high as possible. for 200 users? The transmit power is 30 dBm, path loss parameters are K = 0.015 and alpha = 2.8, with a uniform user distribution.",
+            "Parsed_Parameters": {
+                "X_dimension": 55,
+                "Y_dimension": 35,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 10,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": 6,
+                "K": 0.015,
+                "Alpha": 2.8,
+                "Location": "Banquet Hall",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": 30
+            }
+        },
+        {
+            "Original_Request": "How do we position 5 Cisco ASR-900 routers in a house (30m x 20m x 4m) to avoid low signal areas for consistent connectivity. for 100 users? The transmit power is 24 dBm, path loss parameters are K = 0.012 and alpha = 2.7, with users distributed uniformly.",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 20,
+                "Number_of_Users": 100,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": 4,
+                "K": 0.012,
+                "Alpha": 2.7,
+                "Location": "House",
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": 24
+            }
+        }
+    ],
+    "1": [
+        {
+            "Original_Request": "I'm planning a network for a warehouse (50m x 60m) with 150 users. How do I place 6 routers to make sure the weakest signal is still usable, using a transmit power of 25 dBm?",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 60,
+                "Number_of_Users": 150,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Warehouse",
+                "Device_Name": null,
+                "Transmit_Power": 25
+            }
+        },
+        {
+            "Original_Request": "Need advice on setting up 4 routers in an office (30m x 40m) for 100 users to ensure no one experiences a poor connection, with a room height of 4m.",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 40,
+                "Number_of_Users": 100,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": 4,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "For a house (20m x 25m) with 50 users, how should I arrange 3 routers to maximize the minimum signal strength, considering a path loss parameter K of 0.01?",
+            "Parsed_Parameters": {
+                "X_dimension": 20,
+                "Y_dimension": 25,
+                "Number_of_Users": 50,
+                "Number_of_Routers": 3,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": 0.01,
+                "Alpha": null,
+                "Location": "House",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I want to strategically place 8 routers in a banquet hall (45m x 55m) with 180 users to keep even the weakest signal strong enough, using Cisco ASR-900 devices.",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 55,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Banquet Hall",
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Can you help me position 5 routers in a hospital (40m x 50m) with 120 users to maximize the minimum RSRP and prevent any weak signal spots, with users distributed uniformly along both axes?",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 50,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Hospital",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Looking to set up 7 routers in a warehouse (35m x 45m) with 160 users to boost the minimum received signal power, with a path loss parameter alpha of 3.5.",
+            "Parsed_Parameters": {
+                "X_dimension": 35,
+                "Y_dimension": 45,
+                "Number_of_Users": 160,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": 3.5,
+                "Location": "Warehouse",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "How do I arrange 4 routers in an office (25m x 35m) for 100 users to ensure no area has a low signal, using Huawei NE40 devices and a transmit power of 20 dBm?",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 35,
+                "Number_of_Users": 100,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": 20
+            }
+        },
+        {
+            "Original_Request": "I need to place 6 routers in a house (30m x 40m) with 80 users to raise the lowest signal strength, with a room height of 5m and path loss parameter K of 0.02.",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 40,
+                "Number_of_Users": 80,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": 5,
+                "K": 0.02,
+                "Alpha": null,
+                "Location": "House",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Could you assist with setting up 9 routers in a banquet hall (50m x 60m) with 200 users to maximize the minimum received signal strength, using Nokia 7750 devices and a path loss parameter alpha of 2.5?",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 60,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": 2.5,
+                "Location": "Banquet Hall",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'm aiming to optimize the placement of 7 routers in a hospital (45m x 55m) with 170 users to keep all connections reliable by boosting the minimum strength, with users distributed exponentially along both axes and a transmit power of 30 dBm.",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 55,
+                "Number_of_Users": 170,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Exponential",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Hospital",
+                "Device_Name": null,
+                "Transmit_Power": 30
+            }
+        },
+        {
+            "Original_Request": "I'm looking to set up 6 routers in a warehouse (45m x 55m) for 150 users to maximize the weakest signal strength, using a transmit power of 25 dBm and considering a path loss parameter K of 0.02.",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 55,
+                "Number_of_Users": 150,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": 0.02,
+                "Alpha": null,
+                "Location": "Warehouse",
+                "Device_Name": null,
+                "Transmit_Power": 25
+            }
+        },
+        {
+            "Original_Request": "Could you help me arrange 8 routers in a hospital (40m x 50m) with 180 users to maximize the minimum RSRP, with a room height of 5m and users distributed uniformly along both axes?",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 50,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": 5,
+                "K": null,
+                "Alpha": null,
+                "Location": "Hospital",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I need advice on placing 5 routers in an office (30m x 40m) for 120 users to improve the lowest RSRP and enhance overall network performance, using Juniper MX240 devices and a path loss parameter alpha of 3.5.",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 40,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": 3.5,
+                "Location": "Office",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "How should I position 7 routers in a banquet hall (50m x 60m) for 200 users to make sure even the weakest signal is usable, with a transmit power of 20 dBm and a room height of 6m?",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 60,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": 6,
+                "K": null,
+                "Alpha": null,
+                "Location": "Banquet Hall",
+                "Device_Name": null,
+                "Transmit_Power": 20
+            }
+        },
+        {
+            "Original_Request": "I want to optimize the placement of 4 routers in a house (20m x 25m) with 50 users to maximize the minimum received signal power, using Cisco XR-1234 devices and considering a path loss parameter K of 0.01.",
+            "Parsed_Parameters": {
+                "X_dimension": 20,
+                "Y_dimension": 25,
+                "Number_of_Users": 50,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": 0.01,
+                "Alpha": null,
+                "Location": "House",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Looking to set up 9 routers in a warehouse (35m x 45m) with 160 users to prevent any area from having poor signal quality, with users distributed exponentially along both axes and a transmit power of 30 dBm.",
+            "Parsed_Parameters": {
+                "X_dimension": 35,
+                "Y_dimension": 45,
+                "Number_of_Users": 160,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Exponential",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Warehouse",
+                "Device_Name": null,
+                "Transmit_Power": 30
+            }
+        },
+        {
+            "Original_Request": "Can you assist with arranging 6 routers in an office (25m x 35m) for 100 users to make sure every device has a reliable signal, using Huawei NE40 devices and a path loss parameter alpha of 2.5?",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 35,
+                "Number_of_Users": 100,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": 2.5,
+                "Location": "Office",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I need to place 7 routers in a hospital (45m x 55m) with 170 users to avoid any weak signal spots by boosting the minimum strength, with a room height of 4m and users distributed uniformly along both axes.",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 55,
+                "Number_of_Users": 170,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": 4,
+                "K": null,
+                "Alpha": null,
+                "Location": "Hospital",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Could you help me set up 8 routers in a banquet hall (55m x 65m) with 200 users to improve the weakest RSRP, using Nokia 7750 devices and a path loss parameter K of 0.03?",
+            "Parsed_Parameters": {
+                "X_dimension": 55,
+                "Y_dimension": 65,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": 0.03,
+                "Alpha": null,
+                "Location": "Banquet Hall",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'm aiming to optimize the placement of 5 routers in a house (30m x 40m) with 80 users to maximize the minimum received signal power, with a transmit power of 25 dBm and a room height of 5m.",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 40,
+                "Number_of_Users": 80,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": 5,
+                "K": null,
+                "Alpha": null,
+                "Location": "House",
+                "Device_Name": null,
+                "Transmit_Power": 25
+            }
+        },
+        {
+            "Original_Request": "I'm planning a network for a warehouse (50m x 60m) with 150 users. How do I place 6 routers to ensure everyone has a strong enough signal, using a transmit power of 25 dBm and Cisco XR-1234 devices?",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 60,
+                "Number_of_Users": 150,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Warehouse",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": 25
+            }
+        },
+        {
+            "Original_Request": "Need advice on setting up 4 routers in an office (30m x 40m) for 100 users to keep signal strength high enough everywhere, with a room height of 4m and users distributed uniformly.",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 40,
+                "Number_of_Users": 100,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": 4,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "For a house (20m x 25m) with 50 users, how should I arrange 3 routers to optimize the lowest signal strength, considering a path loss parameter K of 0.01 and alpha of 3?",
+            "Parsed_Parameters": {
+                "X_dimension": 20,
+                "Y_dimension": 25,
+                "Number_of_Users": 50,
+                "Number_of_Routers": 3,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": 0.01,
+                "Alpha": 3,
+                "Location": "House",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I want to strategically place 8 routers in a banquet hall (45m x 55m) with 180 users to ensure that even the farthest devices have a decent connection, using Nokia 7750 devices and a transmit power of 20 dBm.",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 55,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Banquet Hall",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": 20
+            }
+        },
+        {
+            "Original_Request": "Can you help me position 5 routers in a hospital (40m x 50m) with 120 users to maximize the minimum RSRP, ensuring the weakest connection remains strong enough, with users distributed exponentially along both axes and a room height of 5m?",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 50,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Exponential",
+                "Height": 5,
+                "K": null,
+                "Alpha": null,
+                "Location": "Hospital",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Looking to set up 7 routers in a warehouse (35m x 45m) with 160 users to ensure no one has a weak signal, with a path loss parameter K of 0.02 and alpha of 3.5.",
+            "Parsed_Parameters": {
+                "X_dimension": 35,
+                "Y_dimension": 45,
+                "Number_of_Users": 160,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": 0.02,
+                "Alpha": 3.5,
+                "Location": "Warehouse",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "How do I arrange 4 routers in an office (25m x 35m) for 100 users to optimize the minimum RSRP to keep signal quality high, using Huawei NE40 devices and a transmit power of 20 dBm?",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 35,
+                "Number_of_Users": 100,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": 20
+            }
+        },
+        {
+            "Original_Request": "I need to place 6 routers in a house (30m x 40m) with 80 users to avoid weak connections by optimizing the lowest signal strength, with a room height of 5m and path loss parameter K of 0.02.",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 40,
+                "Number_of_Users": 80,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": 5,
+                "K": 0.02,
+                "Alpha": null,
+                "Location": "House",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Could you assist with setting up 9 routers in a banquet hall (50m x 60m) with 200 users to maximize the minimum RSRP, using Cisco ASR-900 devices and a path loss parameter alpha of 2.5?",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 60,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": 2.5,
+                "Location": "Banquet Hall",
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'm aiming to optimize the placement of 7 routers in a hospital (45m x 55m) with 170 users to ensure consistent network coverage by maximizing the minimum received signal power, with users distributed uniformly and a transmit power of 30 dBm.",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 55,
+                "Number_of_Users": 170,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Hospital",
+                "Device_Name": null,
+                "Transmit_Power": 30
+            }
+        },
+        {
+            "Original_Request": "I need to set up 5 routers in a warehouse (40m x 50m) for 120 users to boost the minimum received signal power, using a transmit power of 20 dBm and a room height of 5m.",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 50,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": 5,
+                "K": null,
+                "Alpha": null,
+                "Location": "Warehouse",
+                "Device_Name": null,
+                "Transmit_Power": 20
+            }
+        },
+        {
+            "Original_Request": "Could you help me arrange 7 routers in a hospital (30m x 40m) with 150 users to improve the weakest signal strength, considering a path loss parameter K of 0.01 and alpha of 3?",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 40,
+                "Number_of_Users": 150,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": 0.01,
+                "Alpha": 3,
+                "Location": "Hospital",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'm looking to place 4 routers in an office (25m x 35m) for 100 users to enhance the minimum signal strength for reliable connections, using Juniper MX240 devices and a room height of 4m.",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 35,
+                "Number_of_Users": 100,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": 4,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "How should I position 6 routers in a banquet hall (50m x 60m) for 180 users to keep all connections stable by enhancing the minimum received signal power, with a transmit power of 25 dBm and users distributed uniformly?",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 60,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Banquet Hall",
+                "Device_Name": null,
+                "Transmit_Power": 25
+            }
+        },
+        {
+            "Original_Request": "I want to optimize the placement of 8 routers in a house (20m x 25m) with 50 users to make sure every area has sufficient signal strength by maximizing the minimum RSRP, using Cisco XR-1234 devices and a path loss parameter K of 0.02.",
+            "Parsed_Parameters": {
+                "X_dimension": 20,
+                "Y_dimension": 25,
+                "Number_of_Users": 50,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": 0.02,
+                "Alpha": null,
+                "Location": "House",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Looking to set up 9 routers in a warehouse (35m x 45m) with 160 users to avoid weak spots in the network by improving the minimum signal strength, with a path loss parameter alpha of 3.5 and a room height of 6m.",
+            "Parsed_Parameters": {
+                "X_dimension": 35,
+                "Y_dimension": 45,
+                "Number_of_Users": 160,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": 6,
+                "K": null,
+                "Alpha": 3.5,
+                "Location": "Warehouse",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Can you assist with arranging 5 routers in an office (30m x 40m) for 120 users to maximize the minimum RSRP, keeping all signal levels reliable, using Huawei NE40 devices and a transmit power of 20 dBm?",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 40,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": 20
+            }
+        },
+        {
+            "Original_Request": "I need to place 7 routers in a hospital (45m x 55m) with 170 users to optimize the lowest signal strength, ensuring coverage quality remains high, with users distributed exponentially and a room height of 5m.",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 55,
+                "Number_of_Users": 170,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Exponential",
+                "Height": 5,
+                "K": null,
+                "Alpha": null,
+                "Location": "Hospital",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Could you help me set up 8 routers in a banquet hall (55m x 65m) with 200 users to keep signal strength sufficient everywhere by maximizing the minimum RSRP, using Nokia 7750 devices and a path loss parameter K of 0.03?",
+            "Parsed_Parameters": {
+                "X_dimension": 55,
+                "Y_dimension": 65,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": 0.03,
+                "Alpha": null,
+                "Location": "Banquet Hall",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'm aiming to optimize the placement of 6 routers in a house (30m x 40m) with 80 users to ensure all areas have good signal coverage by maximizing the minimum received signal power, with a transmit power of 25 dBm and a room height of 4m.",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 40,
+                "Number_of_Users": 80,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": 4,
+                "K": null,
+                "Alpha": null,
+                "Location": "House",
+                "Device_Name": null,
+                "Transmit_Power": 25
+            }
+        }
+    ],
+    "2": [
+        {
+            "Original_Request": "Need help placing 5 routers in a 30m x 20m office for 120 users. Ensuring every area has sufficient signal strength. Room height is 4m.",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 20,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": 4,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Looking to optimize the signal for 150 users in a 50m x 30m warehouse with 7 routers. Making sure the weakest signal is still strong enough. Users are distributed uniformly.",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 30,
+                "Number_of_Users": 150,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Warehouse",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "How can I arrange 6 routers in a 45m x 25m banquet hall for 180 users to maximize the minimum signal strength? Improving the lowest RSRP to strengthen overall connectivity. Path loss parameter K is 0.01.",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 25,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": 0.01,
+                "Alpha": null,
+                "Location": "Banquet Hall",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I've got a 20m x 15m house with 50 users and 3 routers. Trying to boost the weakest connections. Users are concentrated near one corner.",
+            "Parsed_Parameters": {
+                "X_dimension": 20,
+                "Y_dimension": 15,
+                "Number_of_Users": 50,
+                "Number_of_Routers": 3,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Exponential",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "House",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Optimizing router placement for 80 users in a 35m x 20m hospital with 4 routers. Ensuring no one experiences a poor connection. Device is Cisco XR-1234.",
+            "Parsed_Parameters": {
+                "X_dimension": 35,
+                "Y_dimension": 20,
+                "Number_of_Users": 80,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Hospital",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Best way to place 9 routers in a 55m x 30m office for 200 users to maximize the minimum received signal? Improving minimum RSRP for comprehensive network coverage. Users are distributed exponentially.",
+            "Parsed_Parameters": {
+                "X_dimension": 55,
+                "Y_dimension": 30,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Exponential",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Looking to enhance the signal for 100 users in a 40m x 20m warehouse with 6 routers. Minimizing weak spots in the network coverage. Transmit power is 25 dBm.",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 20,
+                "Number_of_Users": 100,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Warehouse",
+                "Device_Name": null,
+                "Transmit_Power": 25
+            }
+        },
+        {
+            "Original_Request": "How do I arrange 7 routers in a 50m x 25m banquet hall for 160 users to get the best minimum signal? Keeping all connections reliable by boosting the minimum strength. Path loss parameter alpha is 3.",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 25,
+                "Number_of_Users": 160,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": 3,
+                "Location": "Banquet Hall",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Need to optimize router placement for 130 users in a 30m x 15m hospital with 5 routers. Ensuring the lowest signal strength is as high as possible. Room height is 5m.",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 15,
+                "Number_of_Users": 130,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": 5,
+                "K": null,
+                "Alpha": null,
+                "Location": "Hospital",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Optimal placement for 8 routers in a 45m x 20m office for 170 users to maximize the weakest signal. Preventing any device from having a poor signal. Users are distributed in a bi-exponential pattern.",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 20,
+                "Number_of_Users": 170,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": "Bi-Exponential",
+                "Y_User_Distribution": "Bi-Exponential",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Setting up 5 routers in a 30m x 40m office for 150 users. Keeping even the farthest devices within good signal range. Room height is 5m and users are spread evenly.",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 40,
+                "Number_of_Users": 150,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": 5,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Place 7 routers in a 25m x 50m warehouse for 180 users. Ensuring every area has sufficient signal strength. Users are distributed exponentially and the transmit power is 25 dBm.",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 50,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Exponential",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Warehouse",
+                "Device_Name": null,
+                "Transmit_Power": 25
+            }
+        },
+        {
+            "Original_Request": "I've got a 40m x 30m banquet hall with 200 users and 8 routers. Raising the lowest signal strength to avoid weak connections. Path loss parameter K is 0.02.",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 30,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": 0.02,
+                "Alpha": null,
+                "Location": "Banquet Hall",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Advice on placing 6 routers in a 20m x 35m office for 120 users. Ensuring the worst signal is still strong enough to work well. Users are concentrated near the center of the edge and the device is a Juniper MX240.",
+            "Parsed_Parameters": {
+                "X_dimension": 20,
+                "Y_dimension": 35,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Gaussian",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Set up 4 routers in a 30m x 20m house for 80 users to get the best minimum signal. Raising the signal quality for users on the network edge. Users are near one corner and the room height is 4m.",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 20,
+                "Number_of_Users": 80,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Exponential",
+                "Height": 4,
+                "K": null,
+                "Alpha": null,
+                "Location": "House",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Looking to optimize 9 routers in a 50m x 35m hospital for 160 users. Improving the lowest RSRP to enhance overall network performance. Users are distributed in a bi-exponential pattern.",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 35,
+                "Number_of_Users": 160,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": "Bi-Exponential",
+                "Y_User_Distribution": "Bi-Exponential",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Hospital",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Place 3 routers in a 15m x 25m office for 50 users. Ensuring the weakest RSRP is as strong as possible. Path loss parameter alpha is 3.5.",
+            "Parsed_Parameters": {
+                "X_dimension": 15,
+                "Y_dimension": 25,
+                "Number_of_Users": 50,
+                "Number_of_Routers": 3,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": 3.5,
+                "Location": "Office",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Arrange 10 routers in a 60m x 40m warehouse for 200 users. Maximizing the minimum received signal power for network reliability. Users are spread out in a Gaussian distribution.",
+            "Parsed_Parameters": {
+                "X_dimension": 60,
+                "Y_dimension": 40,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 10,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Gaussian",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Warehouse",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Best way to set up 5 routers in a 25m x 35m banquet hall for 130 users. Avoiding weak spots by boosting the weakest signal. Transmit power is 20 dBm and the device is a Huawei NE40.",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 35,
+                "Number_of_Users": 130,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Banquet Hall",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": 20
+            }
+        },
+        {
+            "Original_Request": "I've got a 35m x 20m office with 100 users and 6 routers. Improving connection quality for those on the edge of coverage. Users are concentrated along an edge and the room height is 6m.",
+            "Parsed_Parameters": {
+                "X_dimension": 35,
+                "Y_dimension": 20,
+                "Number_of_Users": 100,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Uniform",
+                "Height": 6,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Setting up 5 routers in a 30m x 40m office for 150 users. Making sure even the weakest signal is usable. Room height is 4m, users are spread evenly, transmit power is 20 dBm, and the device is a Cisco XR-1234.",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 40,
+                "Number_of_Users": 150,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": 4,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": 20
+            }
+        },
+        {
+            "Original_Request": "Could you help me place 7 routers in a 25m x 50m warehouse for 180 users? Making sure everyone has a strong enough signal. Users are distributed exponentially, path loss parameter K is 0.01, alpha is 3, and the room height is 5m.",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 50,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Exponential",
+                "Height": 5,
+                "K": 0.01,
+                "Alpha": 3,
+                "Location": "Warehouse",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I've got a 40m x 30m banquet hall with 200 users and 8 routers. How can I arrange them to maximize the minimum signal? Keeping signal strength high enough everywhere on the network. The transmit power is 25 dBm, users are concentrated in the center, path loss parameter alpha is 2.5, and the device is a Juniper MX240.",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 30,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Gaussian",
+                "Height": null,
+                "K": null,
+                "Alpha": 2.5,
+                "Location": "Banquet Hall",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": 25
+            }
+        },
+        {
+            "Original_Request": "Need advice on placing 6 routers in a 20m x 35m office for 120 users. Trying to avoid weak signal areas for consistent connectivity. Users are near adjacent corners, path loss parameter K is 0.02, alpha is 3.5, and the room height is 6m.",
+            "Parsed_Parameters": {
+                "X_dimension": 20,
+                "Y_dimension": 35,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Bi-Exponential",
+                "Height": 6,
+                "K": 0.02,
+                "Alpha": 3.5,
+                "Location": "Office",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "How do I set up 4 routers in a 30m x 20m house for 80 users to get the best minimum signal? Preventing any device from having a poor signal. Users are near one corner, transmit power is 15 dBm, path loss parameter alpha is 2, and the device is a Huawei NE40.",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 20,
+                "Number_of_Users": 80,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Exponential",
+                "Height": null,
+                "K": null,
+                "Alpha": 2,
+                "Location": "House",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": 15
+            }
+        },
+        {
+            "Original_Request": "Looking to optimize 9 routers in a 50m x 35m hospital for 160 users. Maximizing the minimum RSRP to ensure consistent coverage. Users are distributed in a bi-exponential pattern, path loss parameter K is 0.03, alpha is 3.8, and the transmit power is 20 dBm.",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 35,
+                "Number_of_Users": 160,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": "Bi-Exponential",
+                "Y_User_Distribution": "Bi-Exponential",
+                "Height": null,
+                "K": 0.03,
+                "Alpha": 3.8,
+                "Location": "Hospital",
+                "Device_Name": null,
+                "Transmit_Power": 20
+            }
+        },
+        {
+            "Original_Request": "I need to place 3 routers in a 15m x 25m office for 50 users. Trying to raise the lowest RSRP value to ensure strong coverage everywhere. Path loss parameter alpha is 3.5, users are spread out in a Gaussian distribution, room height is 3m, and the device is a Nokia 7750.",
+            "Parsed_Parameters": {
+                "X_dimension": 15,
+                "Y_dimension": 25,
+                "Number_of_Users": 50,
+                "Number_of_Routers": 3,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Gaussian",
+                "Height": 3,
+                "K": null,
+                "Alpha": 3.5,
+                "Location": "Office",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Can you help me arrange 10 routers in a 60m x 40m warehouse for 200 users? Avoiding low signal areas for consistent connectivity. Users are along an edge, path loss parameter K is 0.04, alpha is 2.8, and the transmit power is 25 dBm.",
+            "Parsed_Parameters": {
+                "X_dimension": 60,
+                "Y_dimension": 40,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 10,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Uniform",
+                "Height": null,
+                "K": 0.04,
+                "Alpha": 2.8,
+                "Location": "House",
+                "Device_Name": null,
+                "Transmit_Power": 25
+            }
+        },
+        {
+            "Original_Request": "What's the best way to set up 5 routers in a 25m x 35m banquet hall for 130 users? I want to maximize the weakest signal. Users are in opposite corners, transmit power is 20 dBm, path loss parameter alpha is 3, and the room height is 5m.",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 35,
+                "Number_of_Users": 130,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": "Bi-Exponential",
+                "Y_User_Distribution": "Bi-Exponential",
+                "Height": 5,
+                "K": null,
+                "Alpha": 3,
+                "Location": "Banquet Hall",
+                "Device_Name": null,
+                "Transmit_Power": 20
+            }
+        },
+        {
+            "Original_Request": "I've got a 35m x 20m office with 100 users and 6 routers. Ensuring every area has sufficient signal strength. Users are concentrated along an edge, path loss parameter K is 0.015, alpha is 2.7, and the device is a Cisco ASR-900.",
+            "Parsed_Parameters": {
+                "X_dimension": 35,
+                "Y_dimension": 20,
+                "Number_of_Users": 100,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Uniform",
+                "Height": null,
+                "K": 0.015,
+                "Alpha":2.7,
+                "Location": "Office",
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Hey, I've got 4 routers for a 20m x 30m office with 70 users. How do I place them to maximize minimum signal? Room height is 4m and users are spread evenly.",
+            "Parsed_Parameters": {
+                "X_dimension": 20,
+                "Y_dimension": 30,
+                "Number_of_Users": 70,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": 4,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Could you help me set up 6 routers in a 35m x 25m warehouse for 150 users? Raising the lowest signal strength to avoid weak connections. Users are distributed exponentially and the transmit power is 25 dBm.",
+            "Parsed_Parameters": {
+                "X_dimension": 35,
+                "Y_dimension": 25,
+                "Number_of_Users": 150,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Exponential",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Warehouse",
+                "Device_Name": null,
+                "Transmit_Power": 25
+            }
+        },
+        {
+            "Original_Request": "I need to arrange 3 routers in a 15m x 20m house for 50 users. Minimizing weak spots in the network coverage. Path loss parameter K is 0.01 and alpha is 3.",
+            "Parsed_Parameters": {
+                "X_dimension": 15,
+                "Y_dimension": 20,
+                "Number_of_Users": 50,
+                "Number_of_Routers": 3,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": 0.01,
+                "Alpha": 3,
+                "Location": "House",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "What's the best way to place 8 routers in a 45m x 30m banquet hall for 180 users? Focusing on ensuring no one gets a weak signal. Users are concentrated in the center.",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 30,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Gaussian",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Banquet Hall",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I've got a 30m x 20m office with 100 users and 5 routers. How can I arrange them to optimize the weakest signal? Ensuring the minimum signal strength is maximized. The device is a Juniper MX240 and the room height is 5m.",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 20,
+                "Number_of_Users": 100,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": 5,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Need advice on setting up 7 routers in a 50m x 30m hospital for 160 users. Aiming to boost the minimum signal strength. Users are near adjacent corners and the transmit power is 20 dBm.",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 30,
+                "Number_of_Users": 160,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Bi-Exponential",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Hospital",
+                "Device_Name": null,
+                "Transmit_Power": 20
+            }
+        },
+        {
+            "Original_Request": "How do I place 2 routers in a 10m x 15m office for 10 users to get the best minimum signal? Users are spread out in a Gaussian distribution.",
+            "Parsed_Parameters": {
+                "X_dimension": 10,
+                "Y_dimension": 15,
+                "Number_of_Users": 10,
+                "Number_of_Routers": 2,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Gaussian",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Could you help me arrange 9 routers in a 55m x 35m warehouse for 200 users? Raising the signal quality for users on the network edge. Path loss parameter alpha is 3.5.",
+            "Parsed_Parameters": {
+                "X_dimension": 55,
+                "Y_dimension": 35,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": 3.5,
+                "Location": "Warehouse",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I need to set up 5 routers in a 25m x 35m banquet hall for 130 users. Making sure even the weakest signal is usable. The device is a Huawei NE40 and users are in opposite corners.",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 35,
+                "Number_of_Users": 130,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": "Bi-Exponential",
+                "Y_User_Distribution": "Bi-Exponential",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Banquet Hall",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "What's the best way to arrange 6 routers in a 40m x 25m office for 120 users? Keeping all connections reliable by boosting the minimum strength. Users are along an edge and the room height is 6m.",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 25,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Uniform",
+                "Height": 6,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        }
+    ]
+}

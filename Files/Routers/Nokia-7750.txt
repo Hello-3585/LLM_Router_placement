@@ -1,0 +1,182 @@
+### **Nokia 7750 Service Router Specification File**
+
+---
+
+#### **General Overview**  
+- **Model Name**: Nokia 7750 SR-12e  
+- **Series**: 7750 Service Router (SR)  
+- **Manufacturer**: Nokia Networks  
+- **Introduction Year**: 2024  
+- **Purpose**: High-performance, scalable core and edge routing for service providers and enterprise networks.  
+- **Form Factor**: Modular chassis with up to 12 slots.  
+
+---
+
+#### **Technical Specifications**
+
+##### **Hardware Details**  
+- **Processor Architecture**:  
+  - Nokia FP5 Network Processing Unit (NPU)  
+  - Multi-threaded, packet-optimized design.  
+- **Memory**:  
+  - Control Plane: 128 GB DDR4 ECC RAM  
+  - Data Plane: High-speed buffer memory for low latency.  
+- **Storage**:  
+  - Built-in 1 TB NVMe SSD for OS and configuration storage.  
+  - Expandable external storage support via dual USB 3.2 ports.  
+- **Power Supply Options**:  
+  - Dual Redundant Hot-Swappable Units:  
+    - **AC Input**: 100–240V, 50/60 Hz.  
+    - **DC Input**: -48V to -60V.  
+
+---
+
+##### **Port and Interface Options**
+- **Slot Configuration**: 12 slots for Flexible Service Modules (FSM).  
+- **Port Capacity (Default Configuration)**:  
+  - **WAN Interfaces**:  
+    - 4 x 400GE QSFP-DD  
+    - 8 x 100GE QSFP28  
+  - **LAN Interfaces**:  
+    - 16 x 25GE SFP28  
+    - 32 x 10GE SFP+  
+- **Management Ports**:  
+  - 1 x RJ45 Console Port  
+  - 1 x Ethernet Management Port (10/100/1000 Mbps)  
+  - 2 x USB-A Ports  
+
+---
+
+#### **Transmission Details**
+- **Transmission Power**: Configurable up to **20 dBm EIRP** (depending on module).  
+- **Carrier Frequencies Supported**:  
+  - **2.4 GHz Bands**: 2200 MHz–2500 MHz for backhaul and small-cell applications.  
+  - **5 GHz and 6 GHz Bands**: 5150–7125 MHz for high-capacity, unlicensed spectrum.  
+
+---
+
+#### **Routing and Networking Features**
+- **Routing Protocols**:  
+  - IPv4/IPv6  
+  - BGP-4, OSPFv2/v3, IS-IS, RIP  
+  - MPLS (RSVP-TE, SR-MPLS, and SRv6)  
+  - EVPN and VXLAN for Layer 2/3 VPNs.  
+- **Maximum Route Table Capacity**:  
+  - IPv4: 5 Million Entries  
+  - IPv6: 4 Million Entries  
+- **QoS Features**:  
+  - Hierarchical QoS (H-QoS) for multi-tier traffic prioritization.  
+  - Adaptive Traffic Shaping based on application profiles.  
+
+---
+
+#### **Performance Metrics**
+- **Throughput**: Up to **36 Tbps** total system capacity.  
+- **Packet Forwarding Rate**: 3.5 Billion packets per second (Bpps).  
+- **Latency**: Sub-200 µs end-to-end latency.  
+- **VPN Support**:  
+  - 15,000 simultaneous VPN instances.  
+
+---
+
+#### **Advanced Features**
+- **Segment Routing**:  
+  - SR-MPLS and SRv6 for simplified path computation.  
+  - Traffic Engineering extensions for dynamic optimization.  
+- **Application-Aware Routing**:  
+  - Integrated analytics for latency-sensitive applications like VoIP and video.  
+- **High Availability**:  
+  - Non-stop Routing (NSR) and Graceful Restart (GR).  
+  - Multi-chassis redundancy with Virtual Switch Redundancy Protocol (VSRP).  
+
+---
+
+#### **Security and Encryption**
+- **Integrated Security Features**:  
+  - Stateful Firewall for Layer 3 and 4 traffic.  
+  - DDOS Protection: Anomaly detection and real-time mitigation.  
+- **Encryption Standards**:  
+  - IPSec with AES-256 and IKEv2 support.  
+  - MACsec for secure Ethernet links.  
+- **Authentication**:  
+  - 802.1X, TACACS+, RADIUS.  
+- **Certificate Management**: Supports X.509 certificates for secure device identity.  
+
+---
+
+#### **Diagnostics and Monitoring**
+- **Telemetry and Analytics**:  
+  - Real-time streaming telemetry via gRPC and NETCONF.  
+  - Built-in anomaly detection using AI/ML models.  
+- **Diagnostics Tools**:  
+  - Packet tracing with timestamp accuracy.  
+  - On-demand and scheduled diagnostics tests.  
+
+---
+
+#### **Environment and Compliance**
+- **Operating Conditions**:  
+  - Temperature: -5°C to 50°C.  
+  - Humidity: 10%–90% (non-condensing).  
+- **Certifications**:  
+  - CE, FCC, RoHS, ENERGY STAR.  
+  - MEF 3.0 Certified for Carrier Ethernet compliance.  
+
+---
+
+#### **Software Features**
+- **Operating System**: Nokia Service Router Operating System (SR OS).  
+- **Automation and Orchestration**:  
+  - Native YANG-based APIs.  
+  - Integration with Ansible, Puppet, and Python.  
+  - Intent-based configuration support.  
+- **Management Tools**:  
+  - Nokia Network Services Platform (NSP) for centralized control.  
+  - CLI and WebUI for granular configuration and monitoring.  
+- **Software Update Mechanisms**:  
+  - In-service software upgrades (ISSU).  
+  - Automated rollback on upgrade failure.  
+
+---
+
+#### **Physical Specifications**
+- **Chassis Dimensions**:  
+  - Height: 533 mm (12RU).  
+  - Width: 440 mm (19 in rack-mountable).  
+  - Depth: 600 mm.  
+- **Weight**: 40 kg (fully equipped).  
+
+---
+
+#### **Energy Efficiency**
+- **Power Consumption**:  
+  - Typical: 1.2 kW.  
+  - Maximum: 2.0 kW.  
+- **Efficiency Standards**: ENERGY STAR and EU CoC Tier 2 Compliant.  
+- **Cooling System**: Modular fans with front-to-back airflow.  
+
+---
+
+#### **Applications**
+1. **Service Provider Core**: Scalable for high-capacity MPLS and IP core networks.  
+2. **Data Center Interconnect (DCI)**: High throughput with secure Layer 2/3 connectivity.  
+3. **Cloud Service Aggregation**: Optimized for multi-cloud environments.  
+
+---
+
+#### **Warranty and Licensing**
+- **Hardware Warranty**: 5 years (extendable).  
+- **Licensing**: Subscription-based model for advanced software features.  
+- **Support Options**:  
+  - Nokia Care with 24/7 technical support.  
+  - Advanced hardware replacement within 4 hours (optional).  
+
+---
+
+#### **Expansion and Upgrades**
+- **Future-proof Design**:  
+  - Compatible with upcoming FP6 NPUs for higher throughput.  
+  - Support for 800GE modules.  
+- **Inter-chassis Clustering**: Expands capacity up to 144 Tbps in multi-chassis configurations.  
+
+---

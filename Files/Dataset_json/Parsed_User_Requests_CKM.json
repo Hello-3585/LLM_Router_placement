@@ -1,0 +1,2048 @@
+{
+    "0": [
+        {
+            "Original_Request": "For a warehouse with a 40m x 30m floor plan and 4m ceiling, how can I balance the load on 5 Huawei NE40 routers among 120 users, given 20 dBm transmit power, path loss parameters K = 0.02 and alpha = 2.5, and a uniform user distribution along both axes?",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 30,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": 4,
+                "K": 0.02,
+                "Alpha": 2.5,
+                "Location": "Warehouse",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": 20
+            }
+        },
+        {
+            "Original_Request": "I need to optimize router load in a 30m x 20m office with 3m height, where 10 Cisco ASR-900 routers serve 100 users, each with 15 dBm transmit power, path loss parameters K = 0.005 and alpha = 3.5, and a bi-exponential user distribution along the X and Y axes.",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 20,
+                "Number_of_Users": 100,
+                "Number_of_Routers": 10,
+                "X_User_Distribution": "Bi-exponential",
+                "Y_User_Distribution": "Bi-exponential",
+                "Height": 3,
+                "K": 0.005,
+                "Alpha": 3.5,
+                "Location": "Office",
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": 15
+            }
+        },
+        {
+            "Original_Request": "Given a hospital with dimensions 45m x 25m and 5m height, how can I distribute the load on 6 Nokia 7750 routers among 180 users, with 28 dBm transmit power, path loss parameters K = 0.03 and alpha = 2.2, and a Gaussian user distribution along both axes?",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 25,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Uniform",
+                "Height": 5,
+                "K": 0.03,
+                "Alpha": 2.2,
+                "Location": "Hospital",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": 28
+            }
+        },
+        {
+            "Original_Request": "In a 20m x 15m house with 3m height, I want to balance the load on 4 Cisco XR-1234 routers among 50 users, given 12 dBm transmit power, path loss parameters K = 0.01 and alpha = 3.8, and an exponential user distribution along the X-axis and uniform along the Y-axis.",
+            "Parsed_Parameters": {
+                "X_dimension": 20,
+                "Y_dimension": 15,
+                "Number_of_Users": 50,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Uniform",
+                "Height": 3,
+                "K": 0.01,
+                "Alpha": 3.8,
+                "Location": "House",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": 12
+            }
+        },
+        {
+            "Original_Request": "For an office with a 50m x 40m floor plan and 6m ceiling, how can I optimize the load on 9 Juniper MX240 routers among 200 users, with 25 dBm transmit power, path loss parameters K = 0.04 and alpha = 2.8, and a bi-exponential user distribution along both axes?",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 40,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": "Bi-exponential",
+                "Y_User_Distribution": "Bi-exponential",
+                "Height": 6,
+                "K": 0.04,
+                "Alpha": 2.8,
+                "Location": "Office",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": 25
+            }
+        },
+        {
+            "Original_Request": "Considering a banquet hall with dimensions 55m x 30m and 5m height, I'd like to distribute the load on 7 Huawei NE40 routers among 150 users, each having 22 dBm transmit power, with path loss parameters K = 0.02 and alpha = 3.2, and a Gaussian user distribution along the X-axis and exponential along the Y-axis.",
+            "Parsed_Parameters": {
+                "X_dimension": 55,
+                "Y_dimension": 30,
+                "Number_of_Users": 150,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Exponential",
+                "Height": 5,
+                "K": 0.02,
+                "Alpha": 3.2,
+                "Location": "Banquet Hall",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": 22
+            }
+        },
+        {
+            "Original_Request": "I need to balance the load on 8 Nokia 7750 routers in a 35m x 25m warehouse with 4m height, serving 120 users, each with 18 dBm transmit power, path loss parameters K = 0.01 and alpha = 2.5, and a uniform user distribution along both axes.",
+            "Parsed_Parameters": {
+                "X_dimension": 35,
+                "Y_dimension": 25,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": 4,
+                "K": 0.01,
+                "Alpha": 2.5,
+                "Location": "Warehouse",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": 18
+            }
+        },
+        {
+            "Original_Request": "Given a 25m x 20m office with 3m height, how can I optimize the load on 5 Cisco ASR-900 routers among 80 users, with 20 dBm transmit power, path loss parameters K = 0.005 and alpha = 3.5, and a bi-exponential user distribution along the X and Y axes?",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 20,
+                "Number_of_Users": 80,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": "Bi-exponential",
+                "Y_User_Distribution": "Bi-exponential",
+                "Height": 3,
+                "K": 0.005,
+                "Alpha": 3.5,
+                "Location": "Office",
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": 20
+            }
+        },
+        {
+            "Original_Request": "In a hospital with dimensions 40m x 30m and 5m height, I want to distribute the load on 6 Juniper MX240 routers among 180 users, given 25 dBm transmit power, path loss parameters K = 0.03 and alpha = 2.8, and a Gaussian user distribution along both axes.",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 30,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Gaussian",
+                "Height": 5,
+                "K": 0.03,
+                "Alpha": 2.8,
+                "Location": "Hospital",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": 25
+            }
+        },
+        {
+            "Original_Request": "For a 30m x 25m house with 4m height, how can I balance the load on 4 Huawei NE40 routers among 60 users, with 15 dBm transmit power, path loss parameters K = 0.02 and alpha = 3.2, and an exponential user distribution along the X-axis and uniform along the Y-axis.",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 25,
+                "Number_of_Users": 60,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Uniform",
+                "Height": 4,
+                "K": 0.02,
+                "Alpha": 3.2,
+                "Location": "House",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": 15
+            }
+        },
+        {
+            "Original_Request": "In a 45m x 35m warehouse with 6m height, I'd like to optimize the load on 9 Cisco XR-1234 routers among 200 users, each having 28 dBm transmit power, with path loss parameters K = 0.04 and alpha = 2.5, and a bi-exponential user distribution along both axes.",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 35,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": "Bi-exponential",
+                "Y_User_Distribution": "Bi-exponential",
+                "Height": 6,
+                "K": 0.04,
+                "Alpha": 2.5,
+                "Location": "Warehouse",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": 28
+            }
+        },
+        {
+            "Original_Request": "Considering an office with dimensions 30m x 20m and 3m height, how can I distribute the load on 5 Nokia 7750 routers among 100 users, with 20 dBm transmit power, path loss parameters K = 0.01 and alpha = 3.5, and a Gaussian user distribution along the X-axis and exponential along the Y-axis.",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 20,
+                "Number_of_Users": 100,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Exponential",
+                "Height": 3,
+                "K": 0.01,
+                "Alpha": 3.5,
+                "Location": "Office",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": 20
+            }
+        },
+        {
+            "Original_Request": "For a banquet hall with a 50m x 40m floor plan and 5m ceiling, I want to balance the load on 8 Huawei NE40 routers among 180 users, given 25 dBm transmit power, path loss parameters K = 0.03 and alpha = 2.8, and a uniform user distribution along both axes.",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 40,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": 5,
+                "K": 0.03,
+                "Alpha": 2.8,
+                "Location": "Banquet Hall",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": 25
+            }
+        },
+        {
+            "Original_Request": "Given a 25m x 20m house with 4m height, how can I optimize the load on 4 Juniper MX240 routers among 60 users, with 18 dBm transmit power, path loss parameters K = 0.02 and alpha = 3.2, and a bi-exponential user distribution along the X and Y axes.",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 20,
+                "Number_of_Users": 60,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": "Bi-exponential",
+                "Y_User_Distribution": "Bi-exponential",
+                "Height": 4,
+                "K": 0.02,
+                "Alpha": 3.2,
+                "Location": "House",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": 18
+            }
+        },
+        {
+            "Original_Request": "In a hospital with dimensions 40m x 30m and 5m height, I'd like to distribute the load on 7 Cisco ASR-900 routers among 150 users, each having 22 dBm transmit power, with path loss parameters K = 0.02 and alpha = 3.5, and a Gaussian user distribution along both axes.",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 30,
+                "Number_of_Users": 150,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Gaussian",
+                "Height": 5,
+                "K": 0.02,
+                "Alpha": 3.5,
+                "Location": "Hospital",
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": 22
+            }
+        },
+        {
+            "Original_Request": "For a 35m x 25m office with 3m height, how can I balance the load on 6 Nokia 7750 routers among 120 users, with 20 dBm transmit power, path loss parameters K = 0.01 and alpha = 2.5, and an exponential user distribution along the X-axis and uniform along the Y-axis.",
+            "Parsed_Parameters": {
+                "X_dimension": 35,
+                "Y_dimension": 25,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Uniform",
+                "Height": 3,
+                "K": 0.01,
+                "Alpha": 2.5,
+                "Location": "Office",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": 20
+            }
+        },
+        {
+            "Original_Request": "Considering a warehouse with dimensions 45m x 35m and 6m height, I want to optimize the load on 9 Huawei NE40 routers among 200 users, given 28 dBm transmit power, path loss parameters K = 0.04 and alpha = 2.8, and a bi-exponential user distribution along both axes.",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 35,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": "Bi-exponential",
+                "Y_User_Distribution": "Bi-exponential",
+                "Height": 6,
+                "K": 0.04,
+                "Alpha": 2.8,
+                "Location": "Warehouse",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": 28
+            }
+        },
+        {
+            "Original_Request": "In a 30m x 20m house with 3m height, I'd like to distribute the load on 4 Cisco XR-1234 routers among 50 users, with 15 dBm transmit power, path loss parameters K = 0.005 and alpha = 3.8, and a Gaussian user distribution along the X-axis and exponential along the Y-axis.",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 20,
+                "Number_of_Users": 50,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Exponential",
+                "Height": 3,
+                "K": 0.005,
+                "Alpha": 3.8,
+                "Location": "House",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": 15
+            }
+        },
+        {
+            "Original_Request": "For an office with a 40m x 30m floor plan and 4m ceiling, how can I balance the load on 7 Juniper MX240 routers among 150 users, with 25 dBm transmit power, path loss parameters K = 0.03 and alpha = 2.5, and a uniform user distribution along both axes.",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 30,
+                "Number_of_Users": 150,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": 4,
+                "K": 0.03,
+                "Alpha": 2.5,
+                "Location": "Office",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": 25
+            }
+        },
+        {
+            "Original_Request": "Given a banquet hall with dimensions 55m x 40m and 6m height, I want to optimize the load on 10 Nokia 7750 routers among 200 users, each having 30 dBm transmit power, with path loss parameters K = 0.05 and alpha = 2.2, and a bi-exponential user distribution along the X and Y axes.",
+            "Parsed_Parameters": {
+                "X_dimension": 55,
+                "Y_dimension": 40,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 10,
+                "X_User_Distribution": "Bi-exponential",
+                "Y_User_Distribution": "Bi-exponential",
+                "Height": 6,
+                "K": 0.05,
+                "Alpha": 2.2,
+                "Location": "Banquet Hall",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": 30
+            }
+        },
+        {
+            "Original_Request": "In a 20m x 15m office with 3m height, I'd like to distribute the load on 3 Cisco ASR-900 routers among 40 users, with 12 dBm transmit power, path loss parameters K = 0.005 and alpha = 3.5, and an exponential user distribution along the X-axis and uniform along the Y-axis.",
+            "Parsed_Parameters": {
+                "X_dimension": 20,
+                "Y_dimension": 15,
+                "Number_of_Users": 40,
+                "Number_of_Routers": 3,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Uniform",
+                "Height": 3,
+                "K": 0.005,
+                "Alpha": 3.5,
+                "Location": "Office",
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": 12
+            }
+        },
+        {
+            "Original_Request": "Considering a warehouse with dimensions 40m x 30m and 5m height, how can I optimize the load on 6 Huawei NE40 routers among 120 users, given 20 dBm transmit power, path loss parameters K = 0.02 and alpha = 2.8, and a Gaussian user distribution along both axes?",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 30,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Gaussian",
+                "Height": 5,
+                "K": 0.02,
+                "Alpha": 2.8,
+                "Location": "Warehouse",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": 20
+            }
+        },
+        {
+            "Original_Request": "For a 30m x 25m house with 4m height, I want to balance the load on 4 Juniper MX240 routers among 60 users, with 18 dBm transmit power, path loss parameters K = 0.01 and alpha = 3.2, and a bi-exponential user distribution along the X and Y axes.",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 25,
+                "Number_of_Users": 60,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": "Bi-exponential",
+                "Y_User_Distribution": "Bi-exponential",
+                "Height": 4,
+                "K": 0.01,
+                "Alpha": 3.2,
+                "Location": "House",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": 18
+            }
+        },
+        {
+            "Original_Request": "Given a hospital with dimensions 45m x 35m and 6m height, how can I distribute the load on 8 Nokia 7750 routers among 180 users, with 25 dBm transmit power, path loss parameters K = 0.03 and alpha = 2.5, and a uniform user distribution along both axes?",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 35,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": 6,
+                "K": 0.03,
+                "Alpha": 2.5,
+                "Location": "Hospital",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": 25
+            }
+        },
+        {
+            "Original_Request": "In a 25m x 20m office with 3m height, I'd like to optimize the load on 4 Cisco XR-1234 routers among 50 users, with 15 dBm transmit power, path loss parameters K = 0.005 and alpha = 3.8, and a Gaussian user distribution along the X-axis and exponential along the Y-axis.",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 20,
+                "Number_of_Users": 50,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Exponential",
+                "Height": 3,
+                "K": 0.005,
+                "Alpha": 3.8,
+                "Location": "Office",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": 15
+            }
+        },
+        {
+            "Original_Request": "For a banquet hall with a 50m x 40m floor plan and 5m ceiling, I want to balance the load on 9 Huawei NE40 routers among 200 users, given 28 dBm transmit power, path loss parameters K = 0.04 and alpha = 2.8, and a bi-exponential user distribution along both axes.",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 40,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": "Bi-exponential",
+                "Y_User_Distribution": "Bi-exponential",
+                "Height": 5,
+                "K": 0.04,
+                "Alpha": 2.8,
+                "Location": "Banquet Hall",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": 28
+            }
+        },
+        {
+            "Original_Request": "Considering a 35m x 25m warehouse with 4m height, how can I distribute the load on 6 Juniper MX240 routers among 120 users, with 20 dBm transmit power, path loss parameters K = 0.02 and alpha = 2.5, and an exponential user distribution along the X-axis and uniform along the Y-axis.",
+            "Parsed_Parameters": {
+                "X_dimension": 35,
+                "Y_dimension": 25,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Uniform",
+                "Height": 4,
+                "K": 0.02,
+                "Alpha": 2.5,
+                "Location": "Warehouse",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": 20
+            }
+        },
+        {
+            "Original_Request": "In a 40m x 30m office with 5m height, I'd like to optimize the load on 7 Cisco ASR-900 routers among 150 users, each having 22 dBm transmit power, with path loss parameters K = 0.02 and alpha = 3.5, and a Gaussian user distribution along both axes.",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 30,
+                "Number_of_Users": 150,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Gaussian",
+                "Height": 5,
+                "K": 0.02,
+                "Alpha": 3.5,
+                "Location": "Office",
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": 22
+            }
+        },
+        {
+            "Original_Request": "For a 30m x 20m house with 3m height, how can I balance the load on 4 Nokia 7750 routers among 50 users, with 12 dBm transmit power, path loss parameters K = 0.005 and alpha = 3.8, and a uniform user distribution along both axes?",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 20,
+                "Number_of_Users": 50,
+                "Number_of_Routers": 7750,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": 3,
+                "K": 0.005,
+                "Alpha": 3.8,
+                "Location": "House",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": 12
+            }
+        },
+        {
+            "Original_Request": "Given a hospital with dimensions 50m x 40m and 6m height, I want to optimize the load on 10 Huawei NE40 routers among 200 users, each having 30 dBm transmit power, with path loss parameters K = 0.05 and alpha = 2.2, and a bi-exponential user distribution along the X and Y axes.",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 40,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 10,
+                "X_User_Distribution": "Bi-exponential",
+                "Y_User_Distribution": "Bi-exponential",
+                "Height": 6,
+                "K": 0.05,
+                "Alpha": 2.2,
+                "Location": "Hospital",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": 30
+            }
+        },
+        {
+            "Original_Request": "In a 45m x 35m office with 5m height, I'd like to distribute the load on 8 Cisco XR-1234 routers among 180 users, with 25 dBm transmit power, path loss parameters K = 0.03 and alpha = 2.5, and a Gaussian user distribution along the X-axis and exponential along the Y-axis.",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 35,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Exponential",
+                "Height": 5,
+                "K": 0.03,
+                "Alpha": 2.5,
+                "Location": "Office",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": 25
+            }
+        },
+        {
+            "Original_Request": "Considering a warehouse with dimensions 40m x 30m and 4m height, how can I optimize the load on 6 Nokia 7750 routers among 120 users, given 20 dBm transmit power, path loss parameters K = 0.02 and alpha = 2.8, and a uniform user distribution along both axes?",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 30,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": 4,
+                "K": 0.02,
+                "Alpha": 2.8,
+                "Location": "Warehouse",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": 20
+            }
+        },
+        {
+            "Original_Request": "For a 25m x 20m house with 3m height, I want to balance the load on 3 Juniper MX240 routers among 40 users, with 15 dBm transmit power, path loss parameters K = 0.005 and alpha = 3.8, and a bi-exponential user distribution along the X and Y axes.",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 20,
+                "Number_of_Users": 40,
+                "Number_of_Routers": 3,
+                "X_User_Distribution": "Bi-exponential",
+                "Y_User_Distribution": "Bi-exponential",
+                "Height": 3,
+                "K": 0.005,
+                "Alpha": 3.8,
+                "Location": "House",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": 15
+            }
+        },
+        {
+            "Original_Request": "Given a banquet hall with dimensions 50m x 40m and 6m height, how can I distribute the load on 9 Huawei NE40 routers among 200 users, with 28 dBm transmit power, path loss parameters K = 0.04 and alpha = 2.8, and a Gaussian user distribution along both axes?",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 40,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Gaussian",
+                "Height": 6,
+                "K": 0.04,
+                "Alpha": 2.8,
+                "Location": "Banquet Hall",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": 28
+            }
+        },
+        {
+            "Original_Request": "In a 30m x 25m office with 4m height, I'd like to optimize the load on 5 Cisco ASR-900 routers among 80 users, with 20 dBm transmit power, path loss parameters K = 0.01 and alpha = 3.5, and an exponential user distribution along the X-axis and uniform along the Y-axis.",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 25,
+                "Number_of_Users": 80,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Uniform",
+                "Height": 4,
+                "K": 0.01,
+                "Alpha": 3.5,
+                "Location": "Office",
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": 20
+            }
+        },
+        {
+            "Original_Request": "For a 35m x 25m warehouse with 5m height, I want to balance the load on 6 Nokia 7750 routers among 120 users, given 22 dBm transmit power, path loss parameters K = 0.02 and alpha = 2.5, and a bi-exponential user distribution along both axes.",
+            "Parsed_Parameters": {
+                "X_dimension": 35,
+                "Y_dimension": 25,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Bi-exponential",
+                "Y_User_Distribution": "Bi-exponential",
+                "Height": 5,
+                "K": 0.02,
+                "Alpha": 2.5,
+                "Location": "Warehouse",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": 22
+            }
+        },
+        {
+            "Original_Request": "Considering a hospital with dimensions 45m x 35m and 6m height, how can I distribute the load on 8 Juniper MX240 routers among 180 users, with 25 dBm transmit power, path loss parameters K = 0.03 and alpha = 2.8, and a uniform user distribution along both axes?",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 35,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": 6,
+                "K": 0.03,
+                "Alpha": 2.8,
+                "Location": "Hospital",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": 25
+            }
+        },
+        {
+            "Original_Request": "In a 20m x 15m house with 3m height, I'd like to optimize the load on 2 Cisco XR-1234 routers among 30 users, with 12 dBm transmit power, path loss parameters K = 0.005 and alpha = 3.8, and a Gaussian user distribution along the X-axis and exponential along the Y-axis.",
+            "Parsed_Parameters": {
+                "X_dimension": 20,
+                "Y_dimension": 15,
+                "Number_of_Users": 30,
+                "Number_of_Routers": 2,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Exponential",
+                "Height": 3,
+                "K": 0.005,
+                "Alpha": 3.8,
+                "Location": "House",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": 12
+            }
+        },
+        {
+            "Original_Request": "For a 40m x 30m office with 5m height, I want to balance the load on 7 Huawei NE40 routers among 150 users, each having 25 dBm transmit power, with path loss parameters K = 0.03 and alpha = 2.5, and a bi-exponential user distribution along the X and Y axes.",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 30,
+                "Number_of_Users": 150,
+                "Number_of_Routers":7,
+                "X_User_Distribution": "Bi-exponential",
+                "Y_User_Distribution": "Bi-exponential",
+                "Height": 5,
+                "K": 0.03,
+                "Alpha": 2.5,
+                "Location": "Office",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": 25
+            }
+        },
+        {
+            "Original_Request": "Given a warehouse with dimensions 50m x 40m and 6m height, I want to optimize the load on 10 Nokia 7750 routers among 200 users, each having 30 dBm transmit power, with path loss parameters K = 0.05 and alpha = 2.2, and a Gaussian user distribution along both axes.",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 40,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 10,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Gaussian",
+                "Height": 6,
+                "K": 0.05,
+                "Alpha": 2.2,
+                "Location": "Warehouse",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": 30
+            }
+        }
+    ],
+    "1": [
+        {
+            "Original_Request": "Considering a banquet hall of 20m by 50m with 180 users, can you help me position 6 routers to achieve an optimal load balance, taking into account a uniform user distribution along both X and Y axes?",
+            "Parsed_Parameters": {
+                "X_dimension": 20,
+                "Y_dimension": 50,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Banquet Hall",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'd like to set up 5 routers in a 30m by 40m office with 100 users and a room height of 4 meters, using Huawei NE40 devices, to minimize the load on each router.",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 40,
+                "Number_of_Users": 100,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": 4,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Can you assist with placing 9 routers in a 45m by 60m warehouse with 200 users, considering a path loss parameter K of 0.02 and alpha of 3.2, to balance the load on routers?",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 60,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": 0.02,
+                "Alpha": 3.2,
+                "Location": "Warehouse",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I need to configure 3 routers in a 15m by 25m house with 40 users, using Nokia 7750 devices with a transmit power of 20 dBm, to optimize the router load.",
+            "Parsed_Parameters": {
+                "X_dimension": 15,
+                "Y_dimension": 25,
+                "Number_of_Users": 40,
+                "Number_of_Routers": 3,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "House",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": 20
+            }
+        },
+        {
+            "Original_Request": "In a hospital setting with a 20m by 30m room and 80 users, can you help me position 6 routers, considering a Gaussian user distribution along both X and Y axes, to achieve an optimal load balance?",
+            "Parsed_Parameters": {
+                "X_dimension": 20,
+                "Y_dimension": 30,
+                "Number_of_Users": 80,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Gaussian",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Hospital",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'm trying to set up 8 routers in a 25m by 40m office with 150 users and a room height of 5 meters, using Cisco ASR-900 devices, to minimize the load on routers.",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 40,
+                "Number_of_Users": 150,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": 5,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Can you assist with placing 4 routers in a 10m by 20m room with 50 users, considering a path loss parameter K of 0.01 and alpha of 2.5, to balance the load on routers?",
+            "Parsed_Parameters": {
+                "X_dimension": 10,
+                "Y_dimension": 20,
+                "Number_of_Users": 50,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": 0.01,
+                "Alpha": 2.5,
+                "Location": null,
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I need to configure 6 routers in a 40m by 50m warehouse with 180 users, using Juniper MX240 devices with a transmit power of 25 dBm, to optimize the router load.",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 50,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Warehouse",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": 25
+            }
+        },
+        {
+            "Original_Request": "In an office setting with a 30m by 40m room and 120 users, can you help me position 7 routers, considering a Bi-Exponential user distribution along both X and Y axes, to achieve an optimal load balance?",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 40,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": "Bi-exponential",
+                "Y_User_Distribution": "Bi-exponential",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'd like to set up 5 routers in a 20m by 30m room with 90 users and a room height of 4 meters, to minimize the load on each router, using a device with a path loss alpha of 3.5.",
+            "Parsed_Parameters": {
+                "X_dimension": 20,
+                "Y_dimension": 30,
+                "Number_of_Users": 90,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": 4,
+                "K": null,
+                "Alpha": 3.5,
+                "Location": null,
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "For a 25m by 40m office with 140 users, can you help me position 8 routers to achieve an optimal load balance, considering a uniform user distribution along both X and Y axes and a room height of 4 meters?",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 40,
+                "Number_of_Users": 140,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": 4,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I need to configure 6 routers in a 30m by 50m warehouse with 160 users, using Cisco XR-1234 devices with a transmit power of 22 dBm and a path loss parameter K of 0.015, to optimize the router load.",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 40,
+                "Number_of_Users": 160,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": 0.015,
+                "Alpha": null,
+                "Location": "Warehouse",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": 22
+            }
+        },
+        {
+            "Original_Request": "Can you assist with placing 4 routers in a 15m by 25m house with 50 users, considering a Gaussian user distribution along both X and Y axes, to balance the load on routers?",
+            "Parsed_Parameters": {
+                "X_dimension": 15,
+                "Y_dimension": 25,
+                "Number_of_Users": 50,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Gaussian",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "House",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'm trying to set up 9 routers in a 45m by 60m banquet hall with 200 users, using Huawei NE40 devices with a path loss alpha of 3.8, to minimize the load on routers.",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 60,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": 3.8,
+                "Location": "Banquet Hall",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "In a hospital setting with a 20m by 30m room and 70 users, can you help me position 5 routers, considering a room height of 3 meters and a Bi-Exponential user distribution along both X and Y axes, to achieve an optimal load balance?",
+            "Parsed_Parameters": {
+                "X_dimension": 20,
+                "Y_dimension": 30,
+                "Number_of_Users": 70,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": "Bi-exponential",
+                "Y_User_Distribution": "Bi-exponential",
+                "Height": 3,
+                "K": null,
+                "Alpha": null,
+                "Location": "Hospital",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'd like to set up 7 routers in a 35m by 50m office with 150 users, using Nokia 7750 devices with a transmit power of 28 dBm, to optimize the router load.",
+            "Parsed_Parameters": {
+                "X_dimension": 35,
+                "Y_dimension": 50,
+                "Number_of_Users": 150,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": 28
+            }
+        },
+        {
+            "Original_Request": "Can you assist with placing 3 routers in a 10m by 20m room with 40 users, considering a path loss parameter K of 0.005 and alpha of 2.2, to balance the load on routers?",
+            "Parsed_Parameters": {
+                "X_dimension": 10,
+                "Y_dimension": 20,
+                "Number_of_Users": 40,
+                "Number_of_Routers": 3,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": 0.005,
+                "Alpha": 2.2,
+                "Location": null,
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I need to configure 8 routers in a 40m by 60m warehouse with 180 users, using Juniper MX240 devices with a room height of 5 meters, to minimize the load on routers.",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 60,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": 5,
+                "K": null,
+                "Alpha": null,
+                "Location": "Warehouse",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "In an office setting with a 25m by 40m room and 120 users, can you help me position 6 routers, considering a uniform user distribution along both X and Y axes and a device with a path loss alpha of 3.2, to achieve an optimal load balance?",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 40,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": null,
+                "K": null,
+                "Alpha": 3.2,
+                "Location": "Office",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'd like to set up 5 routers in a 20m by 30m room with 80 users, using Cisco ASR-900 devices with a transmit power of 25 dBm and a path loss parameter K of 0.01, to optimize the router load.",
+            "Parsed_Parameters": {
+                "X_dimension": 20,
+                "Y_dimension": 30,
+                "Number_of_Users": 80,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": 0.01,
+                "Alpha": null,
+                "Location": null,
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": 25
+            }
+        },
+        {
+            "Original_Request": "Considering a 30m by 50m office with 160 users, can you help me position 7 routers to achieve an optimal load balance, taking into account a Gaussian user distribution along both X and Y axes and a room height of 4 meters?",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 50,
+                "Number_of_Users": 160,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Gaussian",
+                "Height": 4,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I need to configure 9 routers in a 45m by 60m warehouse with 200 users, using Huawei NE40 devices with a transmit power of 28 dBm and a path loss alpha of 3.5, to minimize the load on routers.",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 60,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": 3.5,
+                "Location": "Warehouse",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": 28
+            }
+        },
+        {
+            "Original_Request": "Can you assist with placing 5 routers in a 20m by 30m house with 60 users, considering a Bi-Exponential user distribution along both X and Y axes and a device with a path loss parameter K of 0.02, to balance the load on routers?",
+            "Parsed_Parameters": {
+                "X_dimension": 20,
+                "Y_dimension": 30,
+                "Number_of_Users": 60,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": "Bi-exponential",
+                "Y_User_Distribution": "Bi-exponential",
+                "Height": null,
+                "K": 0.02,
+                "Alpha": null,
+                "Location": "House",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'm trying to set up 8 routers in a 40m by 50m office with 180 users, using Cisco XR-1234 devices with a room height of 5 meters, to optimize the router load.",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 50,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": 5,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "In a hospital setting with a 25m by 40m room and 100 users, can you help me position 6 routers, considering a uniform user distribution along both X and Y axes and a path loss alpha of 2.8, to achieve an optimal load balance?",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 40,
+                "Number_of_Users": 100,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": null,
+                "K": null,
+                "Alpha": 2.8,
+                "Location": "Hospital",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'd like to set up 4 routers in a 15m by 25m room with 50 users, using Nokia 7750 devices with a transmit power of 20 dBm and a path loss parameter K of 0.015, to minimize the load on routers.",
+            "Parsed_Parameters": {
+                "X_dimension": 15,
+                "Y_dimension": 25,
+                "Number_of_Users": 50,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": 0.015,
+                "Alpha": null,
+                "Location": null,
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": 20
+            }
+        },
+        {
+            "Original_Request": "Can you assist with placing 7 routers in a 35m by 50m warehouse with 150 users, considering a Gaussian user distribution along both X and Y axes, to balance the load on routers?",
+            "Parsed_Parameters": {
+                "X_dimension": 35,
+                "Y_dimension": 50,
+                "Number_of_Users": 150,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Gaussian",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Warehouse",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I need to configure 5 routers in a 20m by 30m room with 80 users, using Juniper MX240 devices with a room height of 4 meters and a device with a path loss alpha of 3.2, to optimize the router load.",
+            "Parsed_Parameters": {
+                "X_dimension": 20,
+                "Y_dimension": 30,
+                "Number_of_Users": 80,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": 4,
+                "K": null,
+                "Alpha": 3.2,
+                "Location": null,
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "In an office setting with a 30m by 40m room and 120 users, can you help me position 6 routers, considering a Bi-Exponential user distribution along both X and Y axes and a transmit power of 25 dBm, to achieve an optimal load balance?",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 40,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Bi-exponential",
+                "Y_User_Distribution": "Bi-exponential",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": null,
+                "Transmit_Power": 25
+            }
+        },
+        {
+            "Original_Request": "I'd like to set up 9 routers in a 45m by 60m banquet hall with 200 users, using Cisco ASR-900 devices with a path loss parameter K of 0.01 and alpha of 3.8, to minimize the load on routers.",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 60,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": 0.01,
+                "Alpha": 3.8,
+                "Location": "Banquet Hall",
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "For a 25m by 40m office with 140 users, can you help me position 8 routers to achieve an optimal load balance, considering a uniform user distribution along both X and Y axes and a device with a path loss alpha of 2.5?",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 40,
+                "Number_of_Users": 140,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": null,
+                "K": null,
+                "Alpha": 2.5,
+                "Location": "Office",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I need to configure 6 routers in a 30m by 50m warehouse with 160 users, using Huawei NE40 devices with a transmit power of 22 dBm and a room height of 5 meters, to optimize the router load.",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 50,
+                "Number_of_Users": 160,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": 5,
+                "K": null,
+                "Alpha": null,
+                "Location": "Warehouse",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": 22
+            }
+        },
+        {
+            "Original_Request": "Can you assist with placing 4 routers in a 15m by 25m house with 50 users, considering a Gaussian user distribution along both X and Y axes and a path loss parameter K of 0.005, to balance the load on routers?",
+            "Parsed_Parameters": {
+                "X_dimension": 15,
+                "Y_dimension": 25,
+                "Number_of_Users": 50,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Gaussian",
+                "Height": null,
+                "K": 0.005,
+                "Alpha": null,
+                "Location": "House",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'm trying to set up 9 routers in a 45m by 60m banquet hall with 200 users, using Cisco XR-1234 devices with a path loss alpha of 3.2 and a room height of 4 meters, to minimize the load on routers.",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 60,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": 4,
+                "K": null,
+                "Alpha": 3.2,
+                "Location": "Banquet Hall",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "In a hospital setting with a 20m by 30m room and 70 users, can you help me position 5 routers, considering a Bi-Exponential user distribution along both X and Y axes and a device with a path loss parameter K of 0.02, to achieve an optimal load balance?",
+            "Parsed_Parameters": {
+                "X_dimension": 20,
+                "Y_dimension": 30,
+                "Number_of_Users": 70,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": "Bi-exponential",
+                "Y_User_Distribution": "Bi-exponential",
+                "Height": null,
+                "K": 0.02,
+                "Alpha": null,
+                "Location": "Hospital",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'd like to set up 7 routers in a 35m by 50m office with 150 users, using Nokia 7750 devices with a transmit power of 25 dBm and a path loss alpha of 2.8, to optimize the router load.",
+            "Parsed_Parameters": {
+                "X_dimension": 35,
+                "Y_dimension": 50,
+                "Number_of_Users": 150,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": 2.8,
+                "Location": "Office",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": 25
+            }
+        },
+        {
+            "Original_Request": "Can you assist with placing 3 routers in a 10m by 20m room with 40 users, considering a uniform user distribution along both X and Y axes and a room height of 3 meters, to balance the load on routers?",
+            "Parsed_Parameters": {
+                "X_dimension": 10,
+                "Y_dimension": 20,
+                "Number_of_Users": 40,
+                "Number_of_Routers": 3,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": 3,
+                "K": null,
+                "Alpha": null,
+                "Location": null,
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I need to configure 8 routers in a 40m by 60m warehouse with 180 users, using Juniper MX240 devices with a device with a path loss alpha of 3.5 and a path loss parameter K of 0.015, to minimize the load on routers.",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 60,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": 0.015,
+                "Alpha": 3.5,
+                "Location": "Warehouse",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "In an office setting with a 25m by 40m room and 120 users, can you help me position 6 routers, considering a Gaussian user distribution along both X and Y axes and a transmit power of 22 dBm, to achieve an optimal load balance?",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 40,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Gaussian",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": null,
+                "Transmit_Power": 22
+            }
+        },
+        {
+            "Original_Request": "I'd like to set up 5 routers in a 20m by 30m room with 80 users, using Cisco ASR-900 devices with a room height of 4 meters and a path loss parameter K of 0.01, to optimize the router load.",
+            "Parsed_Parameters": {
+                "X_dimension":20,
+                "Y_dimension": 30,
+                "Number_of_Users": 80,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": 4,
+                "K": 0.01,
+                "Alpha": null,
+                "Location": null,
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": null
+            }
+        }
+    ],
+    "2": [
+        {
+            "Original_Request": "Can you help me position 8 routers in a 25m by 40m office with 140 users to achieve an optimal load balance?",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 40,
+                "Number_of_Users": 140,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I need to configure 6 routers in a 30m by 50m warehouse with 160 users to optimize the router load.",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 50,
+                "Number_of_Users": 160,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Warehouse",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'm trying to set up 4 routers in a 15m by 25m house with 50 users, can you help me balance the load on routers?",
+            "Parsed_Parameters": {
+                "X_dimension": 15,
+                "Y_dimension": 25,
+                "Number_of_Users": 50,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "House",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Can you assist with placing 9 routers in a 45m by 60m banquet hall with 200 users to minimize the load on routers?",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 60,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Banquet Hall",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'd like to set up 7 routers in a 35m by 50m office with 150 users, can you help me optimize the router load?",
+            "Parsed_Parameters": {
+                "X_dimension": 35,
+                "Y_dimension": 50,
+                "Number_of_Users": 150,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I need to configure 5 routers in a 20m by 30m room with 80 users to achieve an optimal load balance.",
+            "Parsed_Parameters": {
+                "X_dimension": 20,
+                "Y_dimension": 30,
+                "Number_of_Users": 80,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": null,
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Can you help me position 3 routers in a 10m by 20m room with 40 users to balance the load on routers?",
+            "Parsed_Parameters": {
+                "X_dimension": 10,
+                "Y_dimension": 20,
+                "Number_of_Users": 40,
+                "Number_of_Routers": 3,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": null,
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'm trying to set up 8 routers in a 40m by 60m warehouse with 180 users, can you help me minimize the load on routers?",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 60,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Warehouse",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Can you assist with placing 6 routers in a 25m by 40m office with 120 users to optimize the router load?",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 40,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'd like to set up 5 routers in a 20m by 30m room with 90 users, can you help me achieve an optimal load balance?",
+            "Parsed_Parameters": {
+                "X_dimension": 20,
+                "Y_dimension": 30,
+                "Number_of_Users": 90,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": null,
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Looking for a way to balance the load on 3 routers in a 15m x 40m hospital with 90 users. The users are concentrated near the center of the room. Can you help me determine the optimal placement?",
+            "Parsed_Parameters": {
+                "X_dimension": 15,
+                "Y_dimension": 40,
+                "Number_of_Users": 90,
+                "Number_of_Routers": 3,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Gaussian",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Hospital",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I've got a 30m x 50m banquet hall with 150 users and 6 routers. I want to distribute the load evenly across the routers. The users are spread out uniformly. Can you help me figure out the best placement?",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 50,
+                "Number_of_Users": 150,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Banquet Hall",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Need help setting up 4 routers in a 25m x 35m office with 100 users. The goal is to minimize congestion on each router. We're using Juniper MX240 devices with a transmit power of 25 dBm.",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 35,
+                "Number_of_Users": 100,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": 25
+            }
+        },
+        {
+            "Original_Request": "Can you help me balance the load on 5 routers in a 40m x 60m warehouse with 180 users? The users are mostly located near one corner of the room. We're using Cisco XR-1234 devices with a path loss parameter K of 0.02.",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 60,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Exponential",
+                "Height": null,
+                "K": 0.02,
+                "Alpha": null,
+                "Location": "Warehouse",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'm trying to optimize the placement of 7 routers in a 45m x 55m house with 140 users. The users are spread out exponentially along the x-axis and uniformly along the y-axis. Can you help me out?",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 55,
+                "Number_of_Users": 140,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Uniform",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "House",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Got a 20m x 40m room with 120 users and 5 routers. The users are concentrated near the edges of the room. Can you help me determine the best placement to balance the load? We're using Huawei NE40 devices.",
+            "Parsed_Parameters": {
+                "X_dimension": 20,
+                "Y_dimension": 40,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Gaussian",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": null,
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Need help setting up 9 routers in a 50m x 60m office with 200 users. The goal is to distribute the load evenly across the routers. The room has a height of 4m and we're using Nokia 7750 devices.",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 60,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": 4,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I've got a 30m x 40m warehouse with 160 users and 6 routers. The users are spread out bi-exponentially. Can you help me figure out the optimal placement to minimize congestion on each router?",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 40,
+                "Number_of_Users": 160,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Bi-exponential",
+                "Y_User_Distribution": "Bi-exponential",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Warehouse",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Can you help me balance the load on 8 routers in a 45m x 55m banquet hall with 190 users? The users are mostly located near the center of the room. We're using Cisco ASR-900 devices with a transmit power of 28 dBm.",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 55,
+                "Number_of_Users": 190,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Gaussian",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Banquet Hall",
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": 28
+            }
+        },
+        {
+            "Original_Request": "I'm trying to optimize the placement of 4 routers in a 25m x 35m house with 110 users. The users are spread out uniformly. The room has a height of 5m and we're using Juniper MX240 devices with a path loss alpha of 3.2.",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 35,
+                "Number_of_Users": 110,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": 5,
+                "K": null,
+                "Alpha": 3.2,
+                "Location": "House",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'm setting up a network in a 20m x 30m office with 90 users and 4 routers. The goal is to distribute the load evenly across the routers. Can you help me determine the best placement? We're using Cisco XR-1234 devices.",
+            "Parsed_Parameters": {
+                "X_dimension": 20,
+                "Y_dimension": 30,
+                "Number_of_Users": 90,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Need help optimizing the placement of 6 routers in a 40m x 50m warehouse with 160 users. The users are concentrated near the adjacent corners of the room. Can you help me figure out the best placement?",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 50,
+                "Number_of_Users": 160,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Bi-exponential",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Warehouse",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Got a 25m x 40m room with 120 users and 5 routers. The users are spread out exponentially along the y-axis and uniformly along the x-axis. Can you help me balance the load on each router? We're using Nokia 7750 devices.",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 40,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Exponential",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": null,
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I've got a 30m x 45m banquet hall with 180 users and 7 routers. The goal is to minimize congestion on each router. The room has a height of 6m and we're using Huawei NE40 devices with a transmit power of 24 dBm.",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 45,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": 6,
+                "K": null,
+                "Alpha": null,
+                "Location": "Banquet Hall",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": 24
+            }
+        },
+        {
+            "Original_Request": "Can you help me set up 3 routers in a 15m x 30m house with 80 users? The users are mostly located near one edge of the room. We're using Juniper MX240 devices with a path loss parameter K of 0.01.",
+            "Parsed_Parameters": {
+                "X_dimension": 15,
+                "Y_dimension": 30,
+                "Number_of_Users": 80,
+                "Number_of_Routers": 3,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Uniform",
+                "Height": null,
+                "K": 0.01,
+                "Alpha": null,
+                "Location": "House",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'm trying to balance the load on 9 routers in a 50m x 60m office with 200 users. The users are spread out uniformly. Can you help me determine the optimal placement? We're using Cisco ASR-900 devices.",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 60,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Need help optimizing the placement of 5 routers in a 35m x 45m warehouse with 140 users. The users are concentrated near the center of the room. Can you help me figure out the best placement? We're using Nokia 7750 devices with a path loss alpha of 2.5.",
+            "Parsed_Parameters": {
+                "X_dimension": 35,
+                "Y_dimension": 45,
+                "Number_of_Users": 140,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Gaussian",
+                "Height": null,
+                "K": null,
+                "Alpha": 2.5,
+                "Location": "Warehouse",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Got a 20m x 40m room with 100 users and 4 routers. The users are spread out bi-exponentially. Can you help me balance the load on each router? We're using Huawei NE40 devices with a transmit power of 26 dBm.",
+            "Parsed_Parameters": {
+                "X_dimension": 20,
+                "Y_dimension": 40,
+                "Number_of_Users": 100,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": "Bi-exponential",
+                "Y_User_Distribution": "Bi-exponential",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": null,
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": 26
+            }
+        },
+        {
+            "Original_Request": "I've got a 40m x 55m banquet hall with 190 users and 8 routers. The goal is to distribute the load evenly across the routers. The room has a height of 5m and we're using Cisco XR-1234 devices.",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 55,
+                "Number_of_Users": 190,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": 5,
+                "K": null,
+                "Alpha": null,
+                "Location": "Banquet Hall",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Can you help me set up 6 routers in a 30m x 50m office with 160 users? The users are mostly located near the opposite corners of the room. We're using Juniper MX240 devices with a path loss parameter K of 0.03.",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 50,
+                "Number_of_Users": 160,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Bi-exponential",
+                "Y_User_Distribution": "Bi-exponential",
+                "Height": null,
+                "K": 0.03,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'm trying to optimize the placement of 4 routers in a 25m x 35m house with 110 users. The users are spread out uniformly along the x-axis and exponentially along the y-axis. Can you help me balance the load?",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 35,
+                "Number_of_Users": 110,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Exponential",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "House",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Need help setting up 7 routers in a 45m x 55m warehouse with 180 users. The goal is to minimize congestion on each router. We're using Nokia 7750 devices with a transmit power of 27 dBm.",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 55,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Warehouse",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": 27
+            }
+        },
+        {
+            "Original_Request": "Got a 20m x 30m room with 90 users and 3 routers. The users are concentrated near the edges of the room. Can you help me determine the best placement to balance the load? We're using Huawei NE40 devices.",
+            "Parsed_Parameters": {
+                "X_dimension": 20,
+                "Y_dimension": 30,
+                "Number_of_Users": 90,
+                "Number_of_Routers": 3,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Gaussian",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": null,
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I've got a 30m x 40m office with 140 users and 6 routers. The users are spread out bi-exponentially. Can you help me figure out the optimal placement to distribute the load evenly?",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 40,
+                "Number_of_Users": 140,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Bi-exponential",
+                "Y_User_Distribution": "Bi-exponential",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Can you help me set up 5 routers in a 35m x 45m banquet hall with 160 users? The users are mostly located near the center of the room. We're using Cisco ASR-900 devices with a path loss alpha of 3.5.",
+            "Parsed_Parameters": {
+                "X_dimension": 35,
+                "Y_dimension": 45,
+                "Number_of_Users": 160,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Gaussian",
+                "Height": null,
+                "K": null,
+                "Alpha": 3.5,
+                "Location": "Banquet Hall",
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'm trying to balance the load on 8 routers in a 50m x 60m warehouse with 200 users. The users are spread out uniformly. Can you help me determine the best placement? We're using Juniper MX240 devices.",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 60,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Warehouse",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Need help optimizing the placement of 4 routers in a 25m x 35m office with 100 users. The users are concentrated near one corner of the room. Can you help me figure out the best placement? We're using Nokia 7750 devices.",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 35,
+                "Number_of_Users": 100,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Uniform",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Got a 40m x 55m room with 190 users and 9 routers. The goal is to minimize congestion on each router. The room has a height of 6m and we're using Huawei NE40 devices with a transmit power of 29 dBm.",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 55,
+                "Number_of_Users": 190,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": 6,
+                "K": null,
+                "Alpha": null,
+                "Location": null,
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": 29
+            }
+        },
+        {
+            "Original_Request": "I've got a 30m x 45m house with 120 users and 5 routers. The users are spread out exponentially along the y-axis and uniformly along the x-axis. Can you help me balance the load on each router? We're using Cisco XR-1234 devices.",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 45,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Exponential",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "House",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Can you help me set up 6 routers in a 35m x 50m warehouse with 180 users? The users are mostly located near the adjacent corners of the room. We're using Juniper MX240 devices with a path loss parameter K of 0.02.",
+            "Parsed_Parameters": {
+                "X_dimension": 35,
+                "Y_dimension": 50,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Bi-exponential",
+                "Height": null,
+                "K": 0.02,
+                "Alpha": null,
+                "Location": "Warehouse",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": null
+            }
+        }
+    ]
+}

@@ -1,0 +1,160 @@
+### **Cisco XR-1234 Router Specification File**
+
+---
+
+#### **General Information**  
+- **Model**: Cisco XR-1234  
+- **Series**: XR Series Routers  
+- **Manufacturer**: Cisco Systems  
+- **Launch Year**: 2023  
+- **Design**: Modular 2RU Rack-Mount  
+
+---
+
+#### **Key Specifications**
+
+##### **Hardware Configuration**
+- **Processor**: Quad-core ARM Cortex-A75 @ 2.2 GHz  
+- **RAM**: 32 GB DDR4  
+- **Flash Storage**: 512 GB NVMe SSD  
+- **Power Supply Options**:  
+  - **AC Input Range**: 110–240V, 50/60 Hz  
+  - **DC Input**: -48V to -60V (optional module)  
+- **Redundant Power Supply**: Supported (Hot-swappable)  
+
+##### **Interface Ports**
+- **WAN**:  
+  - **4 x 10G SFP+ ports**  
+  - **2 x 25G SFP28 ports**  
+  - **1 x 100G QSFP28 port**  
+- **LAN**:  
+  - **12 x 1G/10G SFP+ ports**  
+- **Management Interfaces**:  
+  - **1 x RJ45 Console**  
+  - **1 x USB Type-A (Configurable)**  
+  - **1 x Out-of-band Ethernet Port**  
+
+##### **Wireless Capabilities**
+- **Transmission Power (Max)**:  
+  - **2.4 GHz band**: 20 dBm  
+  - **5 GHz band**: 24 dBm  
+- **Carrier Frequency Range**:  
+  - **2.4 GHz**: 2301 MHz to 2483.5 MHz  
+  - **5 GHz**: 5150 MHz to 5835 MHz  
+
+##### **Wireless Features**
+- **Wi-Fi Standards**: 802.11ax (Wi-Fi 6) with backward compatibility for 802.11a/b/g/n/ac  
+- **Supported Channels**:  
+  - **20 MHz, 40 MHz, 80 MHz, 160 MHz**  
+- **Beamforming**: Enabled  
+- **MIMO**: 4x4 MIMO  
+
+---
+
+#### **Routing and Networking Features**
+- **Protocols**:  
+  - IPv4/IPv6  
+  - OSPFv2/v3, BGP-4, RIP v2, IS-IS  
+  - MPLS with Traffic Engineering  
+- **Maximum Routes**:  
+  - IPv4: 1.2M  
+  - IPv6: 800K  
+- **Dual-stack Support**: Fully enabled for IPv4 and IPv6  
+
+---
+
+#### **Performance Metrics**
+- **Aggregate Throughput**: 60 Gbps  
+- **Encrypted Throughput**: 15 Gbps  
+- **Latency (End-to-End)**: < 0.8 ms  
+- **Packet Processing Rate**: 36 Mpps  
+- **Concurrent Sessions**: 1.5 Million  
+
+---
+
+#### **Quality of Service (QoS)**
+- **Traffic Management**:  
+  - Class-based Weighted Fair Queuing (CBWFQ)  
+  - Priority Queuing for Voice and Video  
+- **Bandwidth Allocation**: Application-aware dynamic allocation  
+- **Deep Packet Inspection (DPI)**: Enabled  
+
+---
+
+#### **Security Features**
+- **Integrated Firewall**: Stateful Packet Inspection  
+- **Encryption**:  
+  - AES-128, AES-256, and ChaCha20-Poly1305 for IPSec and TLS  
+- **Access Control**:  
+  - Role-based Access Control (RBAC)  
+  - MAC filtering, 802.1X Authentication  
+- **Security Monitoring**:  
+  - Embedded IDS/IPS  
+  - Real-time Threat Intelligence Updates  
+
+---
+
+#### **Environment and Compliance**
+- **Operating Temperature Range**: 0°C to 50°C  
+- **Storage Temperature Range**: -40°C to 70°C  
+- **Humidity**: 10% to 90% non-condensing  
+- **Cooling**:  
+  - Front-to-back airflow with dual hot-swappable fans  
+- **Certifications**:  
+  - CE, FCC Class A, UL 60950-1  
+
+---
+
+#### **Software and Management**
+- **OS**: Cisco IOS XR (Version 7.4.2 or later)  
+- **Features**:  
+  - Automation via Python APIs  
+  - Telemetry Streaming (NETCONF, gRPC)  
+  - SNMP v2/v3  
+  - WebUI for simplified configuration  
+- **CLI**: Extensive with tab-completion and syntax validation  
+
+---
+
+#### **Diagnostics and Logging**
+- **Diagnostics**:  
+  - Built-in Packet Capture Tool  
+  - Real-time Latency and Jitter Monitoring  
+- **Event Logs**:  
+  - Local Storage for Logs  
+  - Syslog (Remote Logging Supported)  
+
+---
+
+#### **Supported Use Cases**
+1. **Branch Office Aggregation**:  
+   Seamless connectivity for enterprise branch offices with MPLS and encrypted tunnels.  
+2. **Service Provider Edge Router**:  
+   Optimized for high-speed metro Ethernet and broadband aggregation.  
+3. **Campus Core Routing**:  
+   Reliable high-throughput routing for large enterprise campuses.  
+
+---
+
+#### **Physical Dimensions**
+- **Height**: 88.9 mm (2RU)  
+- **Width**: 482.6 mm (19 in)  
+- **Depth**: 520 mm  
+- **Weight**: 9.8 kg  
+
+---
+
+#### **Warranty and Support**
+- **Standard Warranty**: 1 Year (Limited Hardware Warranty)  
+- **Extended Options**: Cisco SmartNet Services for 24/7 support  
+- **Software Licensing**: Subscription-based advanced features (Optional Base License Included)  
+
+---
+
+#### **Additional Notes**
+- **Firmware Updates**:  
+  - Rolling updates available via Cisco Cloud Services.  
+- **Energy Efficiency**:  
+  - Fully compliant with ENERGY STAR 3.0  
+
+--- 

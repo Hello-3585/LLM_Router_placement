@@ -1,0 +1,99 @@
+# 3GPP Specification for Indoor User Distribution and Path Loss Modeling  
+## Environment: Office
+
+---
+
+## Overview  
+This document outlines the user distribution and path loss modeling parameters tailored for an **Office** environment. The primary objective is to establish a standardized framework for simulating and optimizing wireless communication systems in a typical office layout.
+
+---
+
+### 1. Environment Characteristics  
+
+#### 1.1 Office Description  
+- **Dimensions**: Office spaces range between \( 100 \, \text{m}^2 \) and \( 500 \, \text{m}^2 \), with an average ceiling height of \( 2.8 \, \text{m} \).  
+- **Typical Layout**:  
+  - Workstations and desks are evenly distributed across the space.  
+  - Meeting rooms and partitions introduce additional structural complexity.  
+- **User Density**: \( 0.3 - 1.5 \, \text{users/m}^2 \), reflecting a mixture of seated employees and mobile users.
+
+#### 1.2 Selected Distribution Model: Spread Evenly  
+This distribution represents users and devices evenly spaced across the office floor:  
+- Encourages efficient use of the available area.  
+- Reflects realistic placement of desks and workstations in open-plan layouts.
+
+---
+
+### 2. Modeling Parameters  
+
+#### 2.1 User Distribution Details  
+**Distribution Type**: Spread Evenly  
+- Uniform spacing between users ensures minimal overlap or clustering.  
+- User positions are adjusted to avoid obstructions such as walls, partitions, or large furniture.
+
+##### Example Configuration:  
+For an office of \( 20 \, \text{m} \times 15 \, \text{m} \):  
+- **Total Area**: \( 300 \, \text{m}^2 \).  
+- **User Count**: \( 30 \, \text{users} \).  
+- **User Positioning**:  
+  - Each user is approximately \( 3 \, \text{m} \) apart from adjacent users.  
+
+---
+
+#### 2.2 Path Loss Model  
+
+The path loss is calculated using the following equation:  
+\[
+PL(d) = K + 10 \cdot \alpha \cdot \log_{10}(d) + \chi
+\]  
+Where:  
+- \( K \): Path Loss Constant, calibrated to the range \( 0.005 - 0.05 \, \text{dB} \).  
+  - For offices, \( K = 0.03 \, \text{dB} \).  
+- \( \alpha \): Path Loss Exponent, calibrated to the range \( 2.0 - 4.0 \).  
+  - For offices, \( \alpha = 2.5 \).  
+- \( d \): Distance between transmitter and receiver [m].  
+- \( \chi \): Shadowing effect, modeled as a Gaussian random variable (\( \mu = 0, \sigma = 3 \, \text{dB} \)).
+
+##### Environmental Factors Influencing Path Loss:  
+1. **Partitions and Obstacles**: Glass and drywall partitions attenuate signals by \( 3 - 10 \, \text{dB} \) depending on material thickness.  
+2. **Furniture Layout**: Desks, chairs, and cabinets create minor NLOS conditions, contributing to path loss.  
+
+---
+
+### 3. Simulation Guidelines  
+
+**Example Configuration for Simulation**:  
+
+| **Parameter**             | **Value**                     |  
+|----------------------------|-------------------------------|  
+| Room Size                 | \( 20 \, \text{m} \times 15 \, \text{m} \) |  
+| Total Area                | \( 300 \, \text{m}^2 \)        |  
+| User Count                | \( 30 \, \text{users} \)       |  
+| User Distribution Type    | Spread Evenly                 |  
+| Path Loss Parameter \(K\) | \( 0.03 \, \text{dB} \)        |  
+| Path Loss Exponent \( \alpha \) | \( 2.5 \)                |  
+| Shadowing Effect          | Gaussian (\( \sigma = 3 \, \text{dB} \)) |  
+
+---
+
+### 4. Recommendations  
+
+1. **Access Point Placement**:  
+   - Position APs to minimize the distance to central workstations while accounting for potential shadowing effects.  
+   - Ceiling-mounted APs are preferred for uniform coverage.  
+
+2. **Additional Considerations**:  
+   - Reflective surfaces, such as glass walls, may introduce multi-path effects.  
+   - Simulations should incorporate random mobility for users to reflect walking patterns in hallways or open spaces.
+
+---
+
+### 5. Compliance  
+
+This document is aligned with the standards outlined in:  
+- 3GPP TR 38.901 V16.1.0: *Study on Channel Model for Frequencies from 0.5 to 100 GHz*.  
+- ITU-R P.1238-9: *Propagation Data and Prediction Methods for Indoor Radio Transmission*.  
+
+---
+
+**End of Document**  

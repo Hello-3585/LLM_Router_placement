@@ -1,0 +1,2048 @@
+{
+    "0": [
+        {
+            "Original_Request": "Considering a banquet hall with dimensions 50m x 20m and a height of 5m, I'd like to make sure the 150 devices are close to 8 Juniper MX240 routers, each having 25 dBm transmit power, with path loss parameters K = 0.01 and alpha = 3, and user distribution following Gaussian along the X-axis and exponential along the Y-axis.",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 20,
+                "Number_of_Users": 150,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Exponential",
+                "Height": 5,
+                "K": 0.01,
+                "Alpha": 3.0,
+                "Location": "Banquet Hall",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": 25
+            }
+        },
+        {
+            "Original_Request": "I need help placing 4 Huawei NE40 routers in a 40m x 15m office with 3m height to keep routers in range to 80 users, who are spread uniformly along the X-axis and bi-exponentially along the Y-axis, given 20 dBm transmit power, K = 0.005, and alpha = 2.5.",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 15,
+                "Number_of_Users": 80,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Bi-Exponential",
+                "Height": 3,
+                "K": 0.005,
+                "Alpha": 2.5,
+                "Location": "Office",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": 20
+            }
+        },
+        {
+            "Original_Request": "To ensure that the equipments of 100 users stays within reach of 5 Nokia 7750 routers in a 60m x 25m warehouse with 6m height, I'd like to know the optimal placement, considering 28 dBm transmit power, path loss parameters K = 0.03 and alpha = 3.5, and exponential user distribution along both axes.",
+            "Parsed_Parameters": {
+                "X_dimension": 60,
+                "Y_dimension": 25,
+                "Number_of_Users": 100,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Exponential",
+                "Height": 6,
+                "K": 0.03,
+                "Alpha": 3.50,
+                "Location": "Warehouse",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": 28
+            }
+        },
+        {
+            "Original_Request": "In a 30m x 10m house with 4m height, how can I place 3 Cisco ASR-900 routers in room with 50 users,such that devices connect easily, users are spread uniformly along both axes, and routers have 22 dBm transmit power, given path loss parameters K = 0.02 and alpha = 2.2?",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 10,
+                "Number_of_Users": 50,
+                "Number_of_Routers": 3,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": 4,
+                "K": 0.02,
+                "Alpha": 2.2,
+                "Location": "House",
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": 22
+            }
+        },
+        {
+            "Original_Request": "I'm looking to minimize the gap between 120 users and 6 Cisco XR-1234 routers in a 45m x 20m hospital with 5m height, considering 25 dBm transmit power, path loss parameters K = 0.01 and alpha = 3, and bi-exponential user distribution along the X-axis and Gaussian along the Y-axis.",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 20,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Bi-Exponential",
+                "Y_User_Distribution": "Gaussian",
+                "Height": 5,
+                "K": 0.01,
+                "Alpha": 3.0,
+                "Location": "Hospital",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": 25
+            }
+        },
+        {
+            "Original_Request": "Trying to keep 180 users closer to 9 Juniper MX240 access points in a 55m x 25m office with 4m height, I need guidance on optimal placement, given 29 dBm transmit power, path loss parameters K = 0.04 and alpha = 3.2, and uniform user distribution along both axes.",
+            "Parsed_Parameters": {
+                "X_dimension": 55,
+                "Y_dimension": 25,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": 4,
+                "K": 0.04,
+                "Alpha": 3.2,
+                "Location": "Office",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": 29
+            }
+        },
+        {
+            "Original_Request": "In a 20m x 10m room with 3m height, I'd like to arrange 2 Huawei NE40 routers near 40 users, spread exponentially along the X-axis and uniformly along the Y-axis, and 2 Huawei NE40 routers with 20 dBm transmit power, considering path loss parameters K = 0.005 and alpha = 2.",
+            "Parsed_Parameters": {
+                "X_dimension": 20,
+                "Y_dimension": 10,
+                "Number_of_Users": 40,
+                "Number_of_Routers": 2,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Uniform",
+                "Height": 3,
+                "K": 0.005,
+                "Alpha": 2.0,
+                "Location": null,
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": 20
+            }
+        },
+        {
+            "Original_Request": "How can I ensure that 150 users aren't too far from 7 Nokia 7750 routers in a 50m x 20m warehouse with 5m height, given 27 dBm transmit power, path loss parameters K = 0.02 and alpha = 2.8, and Gaussian user distribution along both axes?",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 20,
+                "Number_of_Users": 150,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Gaussian",
+                "Height": 5,
+                "K": 0.02,
+                "Alpha": 2.80,
+                "Location": "Warehouse",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": 27
+            }
+        },
+        {
+            "Original_Request": "I need help bringing 90 users closer to 5 Cisco ASR-900 routers in a 35m x 15m office with 4m height, considering 24 dBm transmit power, path loss parameters K = 0.01 and alpha = 2.5, and bi-exponential user distribution along both axes.",
+            "Parsed_Parameters": {
+                "X_dimension": 35,
+                "Y_dimension": 15,
+                "Number_of_Users": 90,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": "Bi-Exponential",
+                "Y_User_Distribution": "Bi-Exponential",
+                "Height": 4,
+                "K": 0.01,
+                "Alpha": 2.5,
+                "Location": "Office",
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": 24
+            }
+        },
+        {
+            "Original_Request": "In a 40m x 20m banquet hall with 6m height, I'd like to make sure that 120 users, spread uniformly along the X-axis and exponentially along the Y-axis, stay near 6 Cisco XR-1234 connection points with 26 dBm transmit power, given path loss parameters K = 0.03 and alpha = 3.",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 20,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Exponential",
+                "Height": 6,
+                "K": 0.03,
+                "Alpha": 3.0,
+                "Location": "Banquet Hall",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": 26
+            }
+        },
+        {
+            "Original_Request": "For a 25m x 15m house with 4m height, I want to reduce the geometric distance between 60 users, spread Gaussian along the X-axis and uniformly along the Y-axis, and 4 Huawei NE40 routers with 21 dBm transmit power, considering path loss parameters K = 0.005 and alpha = 2.2.",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 15,
+                "Number_of_Users": 60,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Uniform",
+                "Height": 4,
+                "K": 0.005,
+                "Alpha": 2.2,
+                "Location": "House",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": 21
+            }
+        },
+        {
+            "Original_Request": "Considering an office with dimensions 45m x 20m and a height of 5m, I'd like to optimise network layout to decrease the distance between 100 users and 6 Juniper MX240 routers, each having 26 dBm transmit power, with path loss parameters K = 0.02 and alpha = 3, and user distribution following exponential along both axes.",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 20,
+                "Number_of_Users": 100,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Exponential",
+                "Height": 5,
+                "K": 0.02,
+                "Alpha": 3.0,
+                "Location": "Office",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": 26
+            }
+        },
+        {
+            "Original_Request": "I'm trying to configure 5 Nokia 7750 routers in a 50m x 25m warehouse with 6m height to shorten it's distance to 120 users, who are spread uniformly along the X-axis and bi-exponentially along the Y-axis, given 28 dBm transmit power, K = 0.01, and alpha = 2.8.",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 25,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Bi-Exponential",
+                "Height": 6,
+                "K": 0.01,
+                "Alpha": 2.80,
+                "Location": "Warehouse",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": 28
+            }
+        },
+        {
+            "Original_Request": "To reduce the distance between 150 users and 8 Cisco ASR-900 routers in a 60m x 30m banquet hall with 5m height, I need guidance on optimal placement, considering 29 dBm transmit power, path loss parameters K = 0.04 and alpha = 3.5, and Gaussian user distribution along both axes.",
+            "Parsed_Parameters": {
+                "X_dimension": 60,
+                "Y_dimension": 30,
+                "Number_of_Users": 150,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Gaussian",
+                "Height": 5,
+                "K": 0.04,
+                "Alpha": 3.50,
+                "Location": "Banquet Hall",
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": 29
+            }
+        },
+        {
+            "Original_Request": "In a 30m x 15m hospital with 4m height, how can I place routers strategically to lessen the distance between 80 users, spread exponentially along the X-axis and uniformly along the Y-axis, and 4 Cisco XR-1234 routers with 23 dBm transmit power, given path loss parameters K = 0.02 and alpha = 2.5?",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 15,
+                "Number_of_Users": 80,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Uniform",
+                "Height": 4,
+                "K": 0.02,
+                "Alpha": 2.5,
+                "Location": "Hospital",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": 23
+            }
+        },
+        {
+            "Original_Request": "I'm looking to lower the distance between 180 users and the closest of 9 Huawei NE40 routers in a 55m x 25m office with 5m height, considering 27 dBm transmit power, path loss parameters K = 0.03 and alpha = 3.2, and bi-exponential user distribution along the X-axis and exponential along the Y-axis.",
+            "Parsed_Parameters": {
+                "X_dimension": 55,
+                "Y_dimension": 25,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": "Bi-Exponential",
+                "Y_User_Distribution": "Exponential",
+                "Height": 5,
+                "K": 0.03,
+                "Alpha": 3.2,
+                "Location": "Office",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": 27
+            }
+        },
+        {
+            "Original_Request": "To make sure that 120 users stay near to 6 Juniper MX240 network sources in a 40m x 20m warehouse with 4m height, I'd like to know the optimal placement, given 25 dBm transmit power, path loss parameters K = 0.01 and alpha = 2.2, and uniform user distribution along both axes.",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 20,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": 4,
+                "K": 0.01,
+                "Alpha": 2.20,
+                "Location": "Warehouse",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": 25
+            }
+        },
+        {
+            "Original_Request": "In a 35m x 15m room with 3m height, I need help arranging routers to avoid long distances between 50 users, spread Gaussian along both axes, and 3 Nokia 7750 routers with 22 dBm transmit power, considering path loss parameters K = 0.005 and alpha = 2.",
+            "Parsed_Parameters": {
+                "X_dimension": 35,
+                "Y_dimension": 15,
+                "Number_of_Users": 50,
+                "Number_of_Routers": 3,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Gaussian",
+                "Height": 3,
+                "K": 0.005,
+                "Alpha": 2.0,
+                "Location": null,
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": 22
+            }
+        },
+        {
+            "Original_Request": "How can I optimize the distance between 100 users and 5 Cisco ASR-900 routers in a 45m x 20m office with 5m height, given 26 dBm transmit power, path loss parameters K = 0.02 and alpha = 2.8, and exponential user distribution along the X-axis and uniformly along the Y-axis?",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 20,
+                "Number_of_Users": 100,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Uniform",
+                "Height": 5,
+                "K": 0.02,
+                "Alpha": 2.8,
+                "Location": "Office",
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": 26
+            }
+        },
+        {
+            "Original_Request": "I'd like to optimise network layout so that 150 users don't stray away from 8 Cisco XR-1234 routers in a 50m x 25m banquet hall with 6m height, considering 28 dBm transmit power, path loss parameters K = 0.03 and alpha = 3, and bi-exponential user distribution along both axes.",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 25,
+                "Number_of_Users": 150,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": "Bi-Exponential",
+                "Y_User_Distribution": "Bi-Exponential",
+                "Height": 6,
+                "K": 0.03,
+                "Alpha": 3.0,
+                "Location": "Banquet Hall",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": 28
+            }
+        },
+        {
+            "Original_Request": "In a 20m x 10m house with 3m height, I'm trying to keep the distance between 40 users, spread uniformly along both axes, and 2 Nokia 7750 routers with 20 dBm transmit power, within an effective range, considering path loss parameters K = 0.005 and alpha = 2.",
+            "Parsed_Parameters": {
+                "X_dimension": 20,
+                "Y_dimension": 10,
+                "Number_of_Users": 40,
+                "Number_of_Routers": 2,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": 3,
+                "K": 0.005,
+                "Alpha": 2.0,
+                "Location": "House",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": 20
+            }
+        },
+        {
+            "Original_Request": "For a 40m x 20m office with 5m height, I need to keep the signal paths shortest between 120 users and 6 Huawei NE40 routers, each having 25 dBm transmit power, with path loss parameters K = 0.02 and alpha = 3, and user distribution following Gaussian along the X-axis and exponential along the Y-axis.",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 20,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Exponential",
+                "Height": 5,
+                "K": 0.02,
+                "Alpha": 3.0,
+                "Location": "Office",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": 25
+            }
+        },
+        {
+            "Original_Request": "Considering a warehouse with dimensions 60m x 30m and a height of 6m, I want to ensure that 9 Juniper MX240 routers are placed conveniently near 180 users, given 29 dBm transmit power, path loss parameters K = 0.04 and alpha = 3.5, and bi-exponential user distribution along both axes.",
+            "Parsed_Parameters": {
+                "X_dimension": 60,
+                "Y_dimension": 30,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": "Bi-Exponential",
+                "Y_User_Distribution": "Bi-Exponential",
+                "Height": 6,
+                "K": 0.04,
+                "Alpha": 3.5,
+                "Location": "Warehouse",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": 29
+            }
+        },
+        {
+            "Original_Request": "I need help placing 4 Cisco ASR-900 routers in a 30m x 15m hospital with 4m height to ensure minimal separation from 80 users, who are spread exponentially along the X-axis and uniformly along the Y-axis, given 23 dBm transmit power, K = 0.01, and alpha = 2.5.",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 15,
+                "Number_of_Users": 80,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Uniform",
+                "Height": 4,
+                "K":0.01,
+                "Alpha": 2.5,
+                "Location": "Hospital",
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": 23
+            }
+        },
+        {
+            "Original_Request": "To reduce the empty area between 150 users and 8 Cisco XR-1234 routers in a 50m x 25m banquet hall with 5m height, I'd like to know the optimal placement, considering 27 dBm transmit power, path loss parameters K = 0.03 and alpha = 3.2, and uniform user distribution along both axes.",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 25,
+                "Number_of_Users": 150,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": 5,
+                "K": 0.03,
+                "Alpha": 3.2,
+                "Location": "Banquet Hall",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": 27
+            }
+        },
+        {
+            "Original_Request": "In a 45m x 20m office with 5m height, how can I arrange 5 Nokia 7750 routers with 26 dBm transmit power proximate to 100 users, spread Gaussian along the X-axis and exponentially along the Y-axis, given path loss parameters K = 0.02 and alpha = 2.8?",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 20,
+                "Number_of_Users": 100,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Exponential",
+                "Height": 5,
+                "K": 0.02,
+                "Alpha": 2.80,
+                "Location": "Office",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": 26
+            }
+        },
+        {
+            "Original_Request": "I'm looking to optimize the closeness between 120 users and 6 Huawei NE40 routers in a 40m x 20m warehouse with 4m height, considering 25 dBm transmit power, path loss parameters K = 0.01 and alpha = 2.2, and bi-exponential user distribution along the X-axis and uniformly along the Y-axis.",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 20,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Bi-Exponential",
+                "Y_User_Distribution": "Uniform",
+                "Height": 4,
+                "K": 0.01,
+                "Alpha": 2.20,
+                "Location": "Warehouse",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": 25
+            }
+        },
+        {
+            "Original_Request": "To keep 80 users closer to 4 Juniper MX240 routers in a 35m x 15m room with 3m height, I need guidance on optimal placement, given 22 dBm transmit power, path loss parameters K = 0.005 and alpha = 2, and exponential user distribution along both axes.",
+            "Parsed_Parameters": {
+                "X_dimension": 35,
+                "Y_dimension": 15,
+                "Number_of_Users": 80,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Exponential",
+                "Height": 3,
+                "K": 0.005,
+                "Alpha": 2.0,
+                "Location": null,
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": 22
+            }
+        },
+        {
+            "Original_Request": "In a 50m x 25m banquet hall with 6m height, I'd like to minimise latency between 150 users, spread uniformly along the X-axis and Gaussian along the Y-axis, and 8 Cisco ASR-900 routers with 28 dBm transmit power, considering path loss parameters K = 0.03 and alpha = 3.",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 25,
+                "Number_of_Users": 150,
+                "Number_of_Routers": 900,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Gaussian",
+                "Height": 6,
+                "K": 0.03,
+                "Alpha": 3.0,
+                "Location": "Banquet Hall",
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": 28
+            }
+        },
+        {
+            "Original_Request": "How can I shorten the distance between 100 users and 5 Cisco XR-1234 routers in a 45m x 20m office with 5m height, given 26 dBm transmit power, path loss parameters K = 0.02 and alpha = 2.8, and exponential user distribution along both axes?",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 20,
+                "Number_of_Users": 100,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Exponential",
+                "Height": 5,
+                "K": 0.02,
+                "Alpha": 2.80,
+                "Location": "Office",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": 26
+            }
+        },
+        {
+            "Original_Request": "For a 25m x 15m house with 4m height, I'm trying to Position 3 Nokia 7750 routers with 21 dBm transmit power to be nearer to where 60 users are located, spread Gaussian along both axes, considering path loss parameters K = 0.005 and alpha = 2.2.",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 15,
+                "Number_of_Users": 60,
+                "Number_of_Routers": 3,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Gaussian",
+                "Height": 4,
+                "K": 0.005,
+                "Alpha": 2.2,
+                "Location": "House",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": 21
+            }
+        },
+        {
+            "Original_Request": "In a 40m x 20m office with 5m height, I need to reduce the physical distance between 120 users and 6 Juniper MX240 routers, each having 26 dBm transmit power, with path loss parameters K = 0.02 and alpha = 3, and user distribution following exponential along the X-axis and uniformly along the Y-axis.",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 20,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Uniform",
+                "Height": 5,
+                "K": 0.02,
+                "Alpha": 3.0,
+                "Location": "Office",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": 26
+            }
+        },
+        {
+            "Original_Request": "Considering a warehouse with dimensions 55m x 25m and a height of 6m, I'd like to reduce the distance between 150 users and 8 Huawei NE40 routers, given 28 dBm transmit power, path loss parameters K = 0.04 and alpha = 3.5, and bi-exponential user distribution along both axes.",
+            "Parsed_Parameters": {
+                "X_dimension": 55,
+                "Y_dimension": 25,
+                "Number_of_Users": 150,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": "Bi-Exponential",
+                "Y_User_Distribution": "Bi-Exponential",
+                "Height": 6,
+                "K": 0.04,
+                "Alpha": 3.50,
+                "Location": "Warehouse",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": 28
+            }
+        },
+        {
+            "Original_Request": "I need help placing 5 Cisco ASR-900 routers in a 35m x 15m hospital with 4m height to ensure that these are not far away to 90 users, who are spread uniformly along the X-axis and exponentially along the Y-axis, given 24 dBm transmit power, K = 0.01, and alpha = 2.5.",
+            "Parsed_Parameters": {
+                "X_dimension": 35,
+                "Y_dimension": 15,
+                "Number_of_Users": 90,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Exponential",
+                "Height": 4,
+                "K": 0.01,
+                "Alpha": 2.50,
+                "Location": "Hospital",
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": 24
+            }
+        },
+        {
+            "Original_Request": "To make 180 users close to 9 Cisco XR-1234 routers in a 60m x 30m banquet hall with 5m height, I'd like to know the optimal placement, considering 29 dBm transmit power, path loss parameters K = 0.03 and alpha = 3.2, and Gaussian user distribution along both axes.",
+            "Parsed_Parameters": {
+                "X_dimension": 60,
+                "Y_dimension": 30,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Gaussian",
+                "Height": 5,
+                "K": 0.03,
+                "Alpha": 3.20,
+                "Location": "Banquet Hall",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": 29
+            }
+        },
+        {
+            "Original_Request": "In a 45m x 20m office with 5m height, how can I minimize the distance between 100 users, spread exponentially along both axes, and 5 Nokia 7750 routers with 25 dBm transmit power, given path loss parameters K = 0.02 and alpha = 2.8?",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 20,
+                "Number_of_Users": 100,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Exponential",
+                "Height": 5,
+                "K": 0.02,
+                "Alpha": 2.80,
+                "Location": "Office",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": 25
+            }
+        },
+        {
+            "Original_Request": "I'm looking to reduce latency due to distance between 120 users and 6 Juniper MX240 routers in a 40m x 20m warehouse with 4m height, considering 26 dBm transmit power, path loss parameters K = 0.01 and alpha = 2.2, and uniform user distribution along both axes.",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 20,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": 4,
+                "K": 0.01,
+                "Alpha": 2.20,
+                "Location": "Warehouse",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": 26
+            }
+        },
+        {
+            "Original_Request": "To reduce the distance between 80 users and 4 Huawei NE40 routers in a 30m x 15m room with 3m height, I need guidance on optimal placement, given 22 dBm transmit power, path loss parameters K = 0.005 and alpha = 2, and bi-exponential user distribution along the X-axis and Gaussian along the Y-axis.",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 15,
+                "Number_of_Users": 80,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": "Bi-Exponential",
+                "Y_User_Distribution": "Gaussian",
+                "Height": 3,
+                "K": 0.005,
+                "Alpha": 2.0,
+                "Location": null,
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": 22
+            }
+        },
+        {
+            "Original_Request": "In a 50m x 25m banquet hall with 6m height, I'd like to lower the device router separation between 150 users, spread Gaussian along the X-axis and uniformly along the Y-axis, and 8 Cisco ASR-900 routers with 28 dBm transmit power, considering path loss parameters K = 0.03 and alpha = 3.",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 25,
+                "Number_of_Users": 150,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Uniform",
+                "Height": 6,
+                "K": 0.03,
+                "Alpha": 3.0,
+                "Location": "Banquet Hall",
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": 28
+            }
+        },
+        {
+            "Original_Request": "How can I minimize the gap between 100 users and 5 Cisco XR-1234 routers in a 45m x 20m office with 5m height, given 26 dBm transmit power, path loss parameters K = 0.02 and alpha = 2.8, and exponential user distribution along the X-axis and uniformly along the Y-axis?",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 20,
+                "Number_of_Users": 100,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Uniform",
+                "Height": 5,
+                "K": 0.02,
+                "Alpha": 2.80,
+                "Location": "Office",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": 26
+            }
+        }
+    ],
+    "1": [
+        {
+            "Original_Request": "I'm planning to install 8 routers in a 25m by 40m office with 150 users. Can you help design the layout to keep routers as accessible as possible for everyone?",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 40,
+                "Number_of_Users": 150,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Can you assist with strategically placing 4 routers in a 15m by 30m room with 60 users, focusing on reducing the physical separation between users and routers?",
+            "Parsed_Parameters": {
+                "X_dimension": 15,
+                "Y_dimension": 30,
+                "Number_of_Users": 60,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": null,
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I need to configure 7 routers in a 50m by 25m warehouse with 120 users, using Cisco XR-1234 devices with a path loss alpha of 2.8, and I'd like to keep the user-router span minimal",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 25,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": 2.8,
+                "Location": "Warehouse",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Determine an efficient layout for a large office where 5 Juniper MX240 devices serve a uniformly distributed area of 100 users, minimizing the average reach to each router.",
+            "Parsed_Parameters": {
+                "X_dimension": null,
+                "Y_dimension": null,
+                "Number_of_Users": 100,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'm setting up 3 routers in a 10m by 20m house with 40 users and want guidance on creating an efficient setup that brings routers close to users.",
+            "Parsed_Parameters": {
+                "X_dimension": 10,
+                "Y_dimension": 20,
+                "Number_of_Users": 40,
+                "Number_of_Routers": 3,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "House",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Could you help place 6 routers in a 40m by 30m hospital with 150 users, using Nokia 7750 devices with a path loss alpha of 2.5, in a way that maximizes router accessibility for users?",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 30,
+                "Number_of_Users": 150,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": 2.5,
+                "Location": "Hospital",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "For 9 routers in a 60m by 40m banquet hall with 200 users, I'm looking to place them so the overall distance from routers to users is as short as possible",
+            "Parsed_Parameters": {
+                "X_dimension": 60,
+                "Y_dimension": 40,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Banquet Hall",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Determine an optimal router configuration in a large warehouse with 8 Huawei NE40 devices covering a 180-user area of 50m x 30m, prioritizing minimal distance to routers.",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 30,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Warehouse",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'm setting up 5 routers in a 20m by 25m office with 80 users, using Cisco ASR-900 devices with a path loss alpha of 2.2, and need help configuring them for maximum proximity to users.",
+            "Parsed_Parameters": {
+                "X_dimension": 20,
+                "Y_dimension": 25,
+                "Number_of_Users": 80,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": 2.2,
+                "Location": "Office",
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Can you assist with deploying 4 routers in a 15m by 20m room with 50 users, targeting user access points close to router nodes?",
+            "Parsed_Parameters": {
+                "X_dimension": 15,
+                "Y_dimension": 20,
+                "Number_of_Users": 50,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": null,
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'm configuring 7 routers in a 45m by 30m office with 140 users, using Juniper MX240 devices with a transmit power of 24 dBm, and I'd like to optimize for minimal user-router distance.",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 30,
+                "Number_of_Users": 140,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": 24
+            }
+        },
+        {
+            "Original_Request": "For 5 routers in a 20m by 25m hospital with 80 users and a path loss parameter K of 0.01, help me find placements to keep router access within an optimal range of users.",
+            "Parsed_Parameters": {
+                "X_dimension": 20,
+                "Y_dimension": 25,
+                "Number_of_Users": 80,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": 0.01,
+                "Alpha": null,
+                "Location": "Hospital",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I need to set up 9 routers in a 60m by 40m banquet hall with 200 users, using Huawei NE40 devices with a path loss alpha of 2.8, and I'm looking to achieve efficient user-router distance.",
+            "Parsed_Parameters": {
+                "X_dimension": 60,
+                "Y_dimension": 40,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": 2.8,
+                "Location": "Banquet Hall",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Create a network for a large warehouse with 8 Cisco XR-1234 devices covering a Gaussian-distributed 180-user area of 50m x 30m, minimizing the stretch between users and routers, with routers elevated 2 meters.",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 30,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Gaussian",
+                "Height": 2,
+                "K": null,
+                "Alpha": null,
+                "Location": "Warehouse",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "In a 15m by 20m house with 50 users and 4 Nokia 7750 routers, help me reduce the layout span, ensuring effective distance from users to routers.",
+            "Parsed_Parameters": {
+                "X_dimension": 15,
+                "Y_dimension": 20,
+                "Number_of_Users": 50,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "House",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "For 6 routers in a 40m by 30m office with 150 users using Cisco ASR-900 devices and a path loss alpha of 2.5, arrange them to achieve close connections to user locations, with devices mounted 1 meter above the floor.",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 30,
+                "Number_of_Users": 150,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": 1,
+                "K": null,
+                "Alpha": 2.5,
+                "Location": "Office",
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'm setting up 5 routers in a 25m by 20m hospital with 80 users and would like to place them in a way that brings user devices closer to the routers.",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 20,
+                "Number_of_Users": 80,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Hospital",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Determine optimal spacing for a large banquet hall with 9 Huawei NE40 devices covering 200 users in a 60m x 40m area, aiming to tighten the distance from user zones to router points, with ceiling height 6 meters.",
+            "Parsed_Parameters": {
+                "X_dimension": 60,
+                "Y_dimension": 40,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": 6,
+                "K": null,
+                "Alpha": null,
+                "Location": "Banquet Hall",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'm planning 8 routers in a 50m by 30m warehouse with 180 users, using Cisco XR-1234 devices at 26 dBm, and seeking guidance on bringing router locations within easy reach of users.",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 30,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Warehouse",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": 26
+            }
+        },
+        {
+            "Original_Request": "Could you help set up 3 routers in a 10m by 15m room with 30 users using Nokia 7750 devices, ensuring router accessibility within a concise range?",
+            "Parsed_Parameters": {
+                "X_dimension": 10,
+                "Y_dimension": 15,
+                "Number_of_Users": 30,
+                "Number_of_Routers": 3,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": null,
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'm placing 6 routers in a 30m by 25m office with 120 users, using Cisco ASR-900 devices transmitting at 25 dBm, and need assistance in achieving a close-distance router layout.",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 25,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": 25
+            }
+        },
+        {
+            "Original_Request": "Can you advise on deploying 4 routers in a 20m by 20m hospital with 80 users, with path loss parameter K of 0.01 and alpha of 2.5, to keep user points within a manageable range to routers?",
+            "Parsed_Parameters": {
+                "X_dimension": 20,
+                "Y_dimension": 20,
+                "Number_of_Users": 80,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": 0.01,
+                "Alpha": 2.5,
+                "Location": "Hospital",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I need to position 8 routers in a 50m by 40m banquet hall with 200 users, prioritizing an arrangement that ensures low travel distance to user equipment.",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 40,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Banquet Hall",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Help with arranging a large warehouse's 7 Juniper MX240 devices to serve 150 users in a 40m x 30m area, optimizing for short distances to user access points, with K of 0.005.",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 30,
+                "Number_of_Users": 150,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": 0.005,
+                "Alpha": null,
+                "Location": "Warehouse",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'm configuring 5 routers in a 25m by 20m house with 60 users, using Nokia 7750 devices, aiming for an arrangement where users stay near routers.",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 20,
+                "Number_of_Users": 60,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "House",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Can you place 9 routers in a 60m by 50m office with 250 users, utilizing Cisco XR-1234 devices and path loss alpha of 2.8, while limiting the maximum distance to any user?",
+            "Parsed_Parameters": {
+                "X_dimension": 60,
+                "Y_dimension": 50,
+                "Number_of_Users": 250,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": 2.8,
+                "Location": "Office",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'm looking for a layout for 6 routers in a 35m by 25m hospital with 120 users using Huawei NE40 devices and a path loss parameter K of 0.01, to arrange routers for efficient access.",
+            "Parsed_Parameters": {
+                "X_dimension": 35,
+                "Y_dimension": 25,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": 0.01,
+                "Alpha": null,
+                "Location": "Hospital",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "For a banquet hall of 50m by 40m with 8 Cisco ASR-900 devices serving 200 users, I'd like to prioritize keeping users within a reachable span of routers, with ceiling height 5 meters.",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 40,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": 5,
+                "K": null,
+                "Alpha": null,
+                "Location": "Banquet Hall",
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'm setting up 4 routers in a 15m by 20m room with 40 users, using Juniper MX240 devices, and aiming for minimal spatial distance between routers and users with a Gaussian layout.",
+            "Parsed_Parameters": {
+                "X_dimension": 15,
+                "Y_dimension": 20,
+                "Number_of_Users": 40,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Gaussian",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": null,
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Assist in positioning 7 routers in a 45m by 35m warehouse with 180 users, using Nokia 7750 devices to maintain minimal gaps from users, with devices mounted 0.5 meters off the floor.",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 35,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": 0.5,
+                "K": null,
+                "Alpha": null,
+                "Location": "Warehouse",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'm deploying 6 routers in a 30m by 25m office with 120 users, using Cisco ASR-900 devices, and am focused on configuring them for nearby user connections, given a ceiling height of 5 meters.",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 25,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height":5,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Can you advise on placing 5 routers in a 25m by 20m hospital with 80 users, aiming for proximity between users and routers, and with a path loss alpha of 3?",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 20,
+                "Number_of_Users": 80,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": 3,
+                "Location": "Hospital",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'm organizing 8 routers in a 50m by 40m banquet hall with 200 users using Juniper MX240 devices, focusing on a setup that minimizes separation to ensure user accessibility.",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 40,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Banquet Hall",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "In a 40m by 30m warehouse with 7 Nokia 7750 routers serving 150 users, I need an efficient layout to reduce the reach to each user point.",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 30,
+                "Number_of_Users": 150,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Warehouse",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "For a 15m by 20m room with 40 users and 4 Cisco XR-1234 routers, I need assistance ensuring the routers are accessible from most user locations.",
+            "Parsed_Parameters": {
+                "X_dimension": 15,
+                "Y_dimension": 20,
+                "Number_of_Users": 40,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": null,
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Help set up 9 routers in a 60m by 50m office with 250 users, using Huawei NE40 devices to keep user distance to routers low, and device height of 1 meter.",
+            "Parsed_Parameters": {
+                "X_dimension": 60,
+                "Y_dimension": 50,
+                "Number_of_Users": 250,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": 1,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "In a 35m by 25m hospital with 120 users and 6 Juniper MX240 routers, I'm seeking the shortest configuration to serve each user optimally.",
+            "Parsed_Parameters": {
+                "X_dimension": 35,
+                "Y_dimension": 25,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Hospital",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Determine an effective layout in a large 50m by 40m banquet hall with 8 Cisco ASR-900 devices serving 200 users, keeping routers accessible within the layout.",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 40,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Banquet Hall",
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "For 5 routers in a 20m by 25m house with 60 users, using Nokia 7750 devices, I'm aiming for user-friendly proximity to routers throughout the space.",
+            "Parsed_Parameters": {
+                "X_dimension": 20,
+                "Y_dimension": 25,
+                "Number_of_Users": 60,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "House",
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Help me place 7 routers in a 45m by 35m warehouse with 180 users, using Cisco XR-1234 devices, prioritizing router placement within reach of users at 6 meters room height.",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 35,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": 6,
+                "K": null,
+                "Alpha": null,
+                "Location": "House",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": null
+            }
+        }
+    ],
+    "2": [
+        {
+            "Original_Request": "Hey, I've got a 25m by 40m office with 120 users and 5 routers. Can you help me figure out where to put the routers so people can stay close to them? We're using Huawei NE40 devices with a transmit power of 22 dBm.",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 40,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": 22
+            }
+        },
+        {
+            "Original_Request": "I'm trying to set up 8 routers in a 50m by 30m warehouse with 200 users. The users are kinda spread out, but I want to make sure they're all within good reach of a router. Can you help me out? We're using Cisco ASR-900 devices.",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 30,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Warehouse",
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "So I've got a 20m by 30m room with 80 users and 4 routers. The users are mostly hanging out near the edges of the room, so I want to put the routers close by. Can you help me come up with a plan? We're using Nokia 7750 devices with a path loss alpha of 2.8.",
+            "Parsed_Parameters": {
+                "X_dimension": 20,
+                "Y_dimension": 30,
+                "Number_of_Users": 80,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Gaussian",
+                "Height": null,
+                "K": null,
+                "Alpha": 2.8,
+                "Location": null,
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I need to place 6 routers in a 35m by 25m hospital with 150 users. The users are all over the place, but I want to ensure they're all within an accessible range to a router. Can you help me figure out where to put them? We're using Juniper MX240 devices.",
+            "Parsed_Parameters": {
+                "X_dimension": 35,
+                "Y_dimension": 25,
+                "Number_of_Users": 150,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Hospital",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Hey, I've got a 40m by 20m office with 100 users and 5 routers. The users are mostly concentrated near the front of the room, so I want to put the routers close to that area. Can you help me come up with a plan? We're using Cisco XR-1234 devices with a transmit power of 24 dBm.",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 20,
+                "Number_of_Users": 100,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Exponential",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": 24
+            }
+        },
+        {
+            "Original_Request": "I'm trying to set up 9 routers in a 60m by 40m banquet hall with 250 users. The users are kinda spread out, but I'd like to make sure they're close enough to connect to a router. Can you help me out? We're using Huawei NE40 devices.",
+            "Parsed_Parameters": {
+                "X_dimension": 60,
+                "Y_dimension": 40,
+                "Number_of_Users": 250,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Banquet Hall",
+                "Device_Name": "Huawei NE40",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "So I've got a 25m by 20m room with 60 users and 3 routers. The users are mostly hanging out near the center of the room, so I want to position the routers nearby. Can you help me come up with a plan? We're using Nokia 7750 devices.",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 20,
+                "Number_of_Users": 60,
+                "Number_of_Routers": 3,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Gaussian",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": null,
+                "Device_Name": "Nokia 7750",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I need to place 7 routers in a 45m by 30m warehouse with 180 users. The users are distributed across the space, but I want to ensure they're within effective reach of a router. Can you help me figure out where to put them? We're using Cisco ASR-900 devices.",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 30,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Warehouse",
+                "Device_Name": "Cisco ASR-900",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Hey, I've got a 30m by 25m office with 120 users and 5 routers. The users are mostly concentrated near the back of the room, so I want to position the routers accordingly. Can you help me come up with a plan? We're using Juniper MX240 devices.",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 25,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Exponential",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": "Juniper MX240",
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'm trying to set up 8 routers in a 50m by 40m banquet hall with 200 users. The users are kinda spread out, and I'd like them to stay within a reasonable range of a router. Can you help me out? We're using Cisco XR-1234 devices with a transmit power of 26 dBm.",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 40,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Banquet Hall",
+                "Device_Name": "Cisco XR-1234",
+                "Transmit_Power": 26
+            }
+        },
+        {
+            "Original_Request": "Hey, I've got a 25m x 40m office with 120 users and I want to install 5 routers. The goal is to ensure minimal distance between users and routers, can you help?",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 40,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'm setting up a network in a 50m x 30m warehouse with 8 routers and 180 users. I need to reduce the reach between users and routers, and the room height is around 5m.",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 30,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": 5,
+                "K": null,
+                "Alpha": null,
+                "Location": "House",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Can you optimize the placement of 4 routers in a 20m x 35m house with 60 users? I'd like them to stay as close as possible to the routers, with users spread evenly throughout.",
+            "Parsed_Parameters": {
+                "X_dimension": 20,
+                "Y_dimension": 35,
+                "Number_of_Users": 60,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "House",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I've got a 45m x 55m banquet hall with 200 users and 9 routers. I want to shorten the average distance to a router, and the transmit power is set to 25 dBm.",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 55,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Banquet Hall",
+                "Device_Name": null,
+                "Transmit_Power": 25
+            }
+        },
+        {
+            "Original_Request": "I need help placing 6 routers in a 28m x 40m office with 150 users. The objective is to keep users near routers, as they're concentrated near one corner.",
+            "Parsed_Parameters": {
+                "X_dimension": 28,
+                "Y_dimension": 40,
+                "Number_of_Users": 150,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Bi-Exponential",
+                "Y_User_Distribution": "Bi-Exponential",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Hey, I've got a 38m x 48m hospital with 180 users and 7 routers. I want to make routers accessible within a short range, and the path loss parameter alpha is around 3.",
+            "Parsed_Parameters": {
+                "X_dimension": 38,
+                "Y_dimension": 48,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": 3,
+                "Location": "Hospital",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Can you help me place 5 routers in a 25m x 30m room with 100 users? The room height is 4m, and I want to keep router proximity to users.",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 30,
+                "Number_of_Users": 100,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": 4,
+                "K": null,
+                "Alpha": null,
+                "Location": null,
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'm setting up a network in a 40m x 50m warehouse with 8 routers and 160 users. I need to optimize for close router-user distances, with path loss parameter K around 0.01.",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 50,
+                "Number_of_Users": 160,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": 0.01,
+                "Alpha": null,
+                "Location": "Warehouse",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I've got a 30m x 45m office with 120 users and 6 routers. I want users to stay within a practical range of routers, with users spread uniformly throughout.",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 45,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Can you help me place 4 routers in a 22m x 35m house with 80 users? The goal is to keep the routers close to users, with transmit power set to 15 dBm.",
+            "Parsed_Parameters": {
+                "X_dimension": 22,
+                "Y_dimension": 35,
+                "Number_of_Users": 80,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "House",
+                "Device_Name": null,
+                "Transmit_Power": 15
+            }
+        },
+        {
+            "Original_Request": "I need to set up a network in a 48m x 55m banquet hall with 9 routers and 200 users. I'd like to ensure close proximity between users and routers; can you assist?",
+            "Parsed_Parameters": {
+                "X_dimension": 48,
+                "Y_dimension": 55,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Banquet Hall",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Hey, I've got a 32m x 40m office with 140 users and 6 routers. I'd like users to stay within range of routers, with room height around 5m.",
+            "Parsed_Parameters": {
+                "X_dimension": 32,
+                "Y_dimension": 40,
+                "Number_of_Users": 140,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": 5,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Can you optimize the placement of 5 routers in a 25m x 35m house with 90 users? The goal is close router-user proximity, with users mostly at the center.",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 35,
+                "Number_of_Users": 90,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": "Gaussian",
+                "Y_User_Distribution": "Gaussian",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "House",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I've got a 50m x 60m warehouse with 10 routers and 220 users. I'd like to minimize router distance for optimal reach, with path loss alpha around 3.5.",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 60,
+                "Number_of_Users": 220,
+                "Number_of_Routers": 10,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": 3.5,
+                "Location": "Warehouse",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I need help placing 7 routers in a 30m x 45m hospital with 160 users. The objective is efficient access to routers, with users distributed along the edges.",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 45,
+                "Number_of_Users": 160,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": "Exponential",
+                "Y_User_Distribution": "Gaussian",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Hospital",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Hey, I've got a 28m x 38m office with 120 users and 5 routers. The goal is to place routers close to users, and the transmit power is set to 22 dBm.",
+            "Parsed_Parameters": {
+                "X_dimension": 28,
+                "Y_dimension": 38,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": null,
+                "Transmit_Power": 22
+            }
+        },
+        {
+            "Original_Request": "Can you help me optimize the placement of 6 routers in a 35m x 50m room with 180 users? Room height is 6m, and I want users to be near routers.",
+            "Parsed_Parameters": {
+                "X_dimension": 35,
+                "Y_dimension": 50,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": 6,
+                "K": null,
+                "Alpha": null,
+                "Location": null,
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'm setting up a network in a 45m x 55m banquet hall with 9 routers and 200 users. I need to maintain close proximity to routers, with path loss parameter K around 0.02.",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 55,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": 0.02,
+                "Alpha": null,
+                "Location": "Banquet Hall",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I've got a 25m x 40m house with 100 users and 4 routers. I'd like to position routers for effective coverage, with users spread evenly.",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 40,
+                "Number_of_Users": 100,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": "Uniform",
+                "Y_User_Distribution": "Uniform",
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "House",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Can you help me place 8 routers in a 40m x 60m warehouse with 220 users? The goal is to keep users within a reasonable reach of routers, with transmit power set to 28 dBm.",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 60,
+                "Number_of_Users": 220,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Warehouse",
+                "Device_Name": null,
+                "Transmit_Power": 28
+            }
+        },
+        {
+            "Original_Request": "Hey, so I've got this huge 50m x 60m warehouse with 10 routers and 200 users. I'd like to ensure everyone's within range of a router, can you help?",
+            "Parsed_Parameters": {
+                "X_dimension": 50,
+                "Y_dimension": 60,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 10,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Warehouse",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'm trying to set up a network in a 30m x 40m office with 120 users and 5 routers. I'd like everyone within a feasible reach of a router, can you assist?",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 40,
+                "Number_of_Users": 120,
+                "Number_of_Routers": 5,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Can you help me out with a 25m x 35m house that's got 80 users and 4 routers? I need a layout that minimizes the distance to routers.",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 35,
+                "Number_of_Users": 80,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "House",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I've got a 45m x 55m banquet hall with 9 routers and 220 users. I want users to remain within a practical range of routers; can you help?",
+            "Parsed_Parameters": {
+                "X_dimension": 45,
+                "Y_dimension": 55,
+                "Number_of_Users": 220,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Banquet Hall",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Hey, I'm setting up a network in a 28m x 38m hospital with 140 users and 6 routers. I want to ensure all users can connect efficiently to routers, with a room height of 5m.",
+            "Parsed_Parameters": {
+                "X_dimension": 28,
+                "Y_dimension": 38,
+                "Number_of_Users": 140,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": 5,
+                "K": null,
+                "Alpha": null,
+                "Location": "Hospital",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "So I've got this 32m x 45m office with 160 users and 7 routers. Can you help me position them so everyone stays close to a router?",
+            "Parsed_Parameters": {
+                "X_dimension": 32,
+                "Y_dimension": 45,
+                "Number_of_Users": 160,
+                "Number_of_Routers": 7,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I need help with a 40m x 50m warehouse that's got 180 users and 8 routers. I'm aiming to keep users within range of the routers, with path loss alpha around 3.",
+            "Parsed_Parameters": {
+                "X_dimension": 40,
+                "Y_dimension": 50,
+                "Number_of_Users": 180,
+                "Number_of_Routers": 8,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": 3,
+                "Location": "House",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "Hey, can you help me out with a 25m x 40m house that's got 100 users and 4 routers? I want everyone close to a router for optimal reach.",
+            "Parsed_Parameters": {
+                "X_dimension": 25,
+                "Y_dimension": 40,
+                "Number_of_Users": 100,
+                "Number_of_Routers": 4,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "House",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "I'm trying to set up a network in a 35m x 50m room with 200 users and 9 routers. I need a layout that keeps users within a manageable distance of routers.",
+            "Parsed_Parameters": {
+                "X_dimension": 35,
+                "Y_dimension": 50,
+                "Number_of_Users": 200,
+                "Number_of_Routers": 9,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": null,
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        },
+        {
+            "Original_Request": "So I've got this 30m x 45m office with 140 users and 6 routers. Can you help me find a placement that keeps router distance reasonable for all users?",
+            "Parsed_Parameters": {
+                "X_dimension": 30,
+                "Y_dimension": 45,
+                "Number_of_Users": 140,
+                "Number_of_Routers": 6,
+                "X_User_Distribution": null,
+                "Y_User_Distribution": null,
+                "Height": null,
+                "K": null,
+                "Alpha": null,
+                "Location": "Office",
+                "Device_Name": null,
+                "Transmit_Power": null
+            }
+        }
+    ]
+}

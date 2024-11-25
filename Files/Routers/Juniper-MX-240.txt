@@ -1,0 +1,177 @@
+### **Juniper MX240 Router Specification File**
+
+---
+
+#### **General Information**  
+- **Model Name**: Juniper MX240  
+- **Series**: MX Series Universal Routing Platforms  
+- **Manufacturer**: Juniper Networks  
+- **Release Year**: 2024  
+- **Form Factor**: Modular 5RU Chassis-Based Router  
+
+---
+
+#### **Key Specifications**
+
+##### **Hardware Architecture**
+- **CPU**: Intel Xeon D-21xx @ 2.1 GHz (Dual Processor Configuration)  
+- **Memory (RAM)**: 64 GB ECC DDR4 (Upgradeable to 128 GB)  
+- **Storage**:  
+  - Internal: 480 GB SSD  
+  - External Storage Support: USB 3.0 and Network Attached Storage (NAS)  
+- **Power Supply**: Dual-redundant, hot-swappable (AC/DC options)  
+  - **AC Input**: 100–240V, 50/60 Hz  
+  - **DC Input**: -40V to -72V  
+
+##### **Interface Modules**
+- **Slot Capacity**:  
+  - 2 Modular Interface Card (MIC) slots  
+  - 2 Routing Engine slots  
+- **Ports (with Default MICs)**:  
+  - **WAN**:  
+    - 4 x 100G QSFP28  
+    - 2 x 40G QSFP+  
+  - **LAN**:  
+    - 8 x 10G SFP+  
+    - 16 x 1G RJ45 (Optional module)  
+- **Management Ports**:  
+  - 1 x RJ45 Console  
+  - 1 x Ethernet Management Port (Out-of-Band)  
+  - 1 x USB 2.0  
+
+##### **Transmission Specifications**
+- **Transmission Power (EIRP)**:  
+  - Configurable up to **24 dBm** (depending on interface module)  
+- **Carrier Frequency Support**:  
+  - **2.4 GHz Band**: 2378–2457.1 MHz  
+  - **5 GHz Band**: 5150–5835 MHz  
+
+---
+
+#### **Routing and Networking Features**
+- **Protocols Supported**:  
+  - IPv4/IPv6  
+  - OSPFv2/v3, BGP-4, IS-IS, RIP  
+  - MPLS: LDP, RSVP-TE, Segment Routing  
+  - VXLAN and EVPN Support  
+- **Maximum Routes**:  
+  - IPv4: 2 Million  
+  - IPv6: 1.5 Million  
+- **MAC Addresses**: 2 Million Entries  
+- **Packet Forwarding Engine (PFE)**: Junos Trio Chipset  
+
+---
+
+#### **Performance Metrics**
+- **Throughput**:  
+  - Line-rate forwarding up to **1.92 Tbps**  
+  - Per-slot capacity: **240 Gbps**  
+- **Packet Processing Rate**: Up to **320 Mpps**  
+- **Latency**: < 0.5 ms for all routing scenarios  
+- **Concurrent VPN Instances**: 1,000  
+
+---
+
+#### **Wireless Capabilities (Optional MIC)**
+- **Standards Supported**: IEEE 802.11ax (Wi-Fi 6E Ready)  
+- **MIMO Configuration**: 8x8 MU-MIMO  
+- **Channel Bandwidths**: 20 MHz, 40 MHz, 80 MHz, 160 MHz  
+
+---
+
+#### **Security Features**
+- **Integrated Firewall**:  
+  - Zone-based Stateful Packet Filtering  
+- **Encryption**:  
+  - IPSec, TLS 1.3, MACsec  
+  - AES-128/256 with GCM and CCM modes  
+- **Authentication**:  
+  - TACACS+, RADIUS, 802.1X  
+- **DDOS Protection**: Built-in anomaly detection and mitigation  
+
+---
+
+#### **Quality of Service (QoS)**
+- **Advanced Traffic Prioritization**:  
+  - Hierarchical Queuing Structures (H-QoS)  
+  - Weighted Random Early Detection (WRED)  
+- **Per-flow Traffic Shaping**: Enabled  
+- **VoIP and Video Optimization**: Dynamic traffic steering based on real-time conditions  
+
+---
+
+#### **Environment and Compliance**
+- **Operating Temperature**: 0°C to 45°C  
+- **Storage Temperature**: -40°C to 70°C  
+- **Humidity Range**: 5% to 95% (non-condensing)  
+- **Cooling**:  
+  - Front-to-back airflow with field-replaceable fan trays  
+- **Certifications**:  
+  - NEBS Level 3 Certified  
+  - CE, FCC Part 15, RoHS  
+
+---
+
+#### **Software Features**
+- **Operating System**: Junos OS (Version 22.2R1 or later)  
+- **Key Features**:  
+  - Automation: Python, Ansible, and NETCONF/YANG APIs  
+  - Integrated Telemetry and Analytics  
+  - Real-time Path Selection with AppQoE  
+- **CLI**: Full Junos CLI with extended scripting support  
+- **Management Interfaces**:  
+  - Junos Space, J-Web, and REST APIs  
+
+---
+
+#### **Diagnostics and Monitoring**
+- **System Diagnostics**:  
+  - Onboard Diagnostics (OBD)  
+  - Self-healing Mechanisms for Interface Issues  
+- **Logging and Alerts**:  
+  - SNMP v2/v3  
+  - Syslog Support for Local and Remote Logging  
+- **Telemetry**: Streaming telemetry for real-time analytics  
+
+---
+
+#### **Physical Dimensions**
+- **Chassis Dimensions**:  
+  - Height: 22 cm (5RU)  
+  - Width: 44 cm  
+  - Depth: 63 cm  
+- **Weight**: 19.5 kg  
+
+---
+
+#### **Supported Use Cases**
+1. **Data Center Interconnect (DCI)**: High-capacity and low-latency routing for data center backbones.  
+2. **Service Provider Core**: Scalable MPLS and Segment Routing for ISPs.  
+3. **Enterprise Aggregation**: High-density port configurations for large-scale campus networks.  
+
+---
+
+#### **Warranty and Licensing**
+- **Hardware Warranty**:  
+  - 5-Year Limited Warranty  
+- **Software Licensing**:  
+  - Base License: Included  
+  - Advanced Features: Subscription-based (Annual or Perpetual Options)  
+- **Support Plans**:  
+  - Juniper Care Services with 24/7 support and advanced replacement options  
+
+---
+
+#### **Energy Efficiency**
+- **Power Consumption**:  
+  - Typical: 580W  
+  - Maximum: 720W  
+- **Energy Efficiency Compliance**: ENERGY STAR certified  
+
+---
+
+#### **Additional Notes**
+- **Expansion Options**: Upgradable to 3 Tbps throughput with additional MICs.  
+- **Firmware Updates**: Provided quarterly via Juniper Networks' secure download portal.  
+
+--- 
